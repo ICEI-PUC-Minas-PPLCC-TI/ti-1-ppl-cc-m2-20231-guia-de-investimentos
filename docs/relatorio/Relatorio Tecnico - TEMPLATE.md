@@ -243,13 +243,17 @@ Pensamos em fazer uma interface simples e pratica para tentar não intimidar nos
 
 ## Wireframes
 
+# Home
 ![Wireframe-home](images/Home.PNG)
 
 É a pagina inicial do site, por ela os usuários podem acessar guias sobre as diversas formas de investir e  também a calculadora
 
+# Sign in
 ![Wireframe-Sign-in](images/Pag-sign.PNG)
 
 Caso o usuario não possua uma conta e pretenda criar uma, ele sera movido para a pagina de sign in na qual ele podera criar sua conta no site
+
+# LOGIN
 ![Wireframe-login](images/Pag-log.PNG)
 
 > Caso o usuario ja tenha uma conta cadastrada so site, ele sera levada para uma tela de login na qual usara seu usuario e senha para acessar as funções do site.
