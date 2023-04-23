@@ -235,18 +235,15 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Projeto de Interface
 
-......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
-
-> Apresente as principais interfaces da solução. Discuta como 
-> foram elaboradas de forma a atender os requisitos funcionais, não
-> funcionais e histórias de usuário abordados nas [Especificações do
-> Projeto](#especificações-do-projeto).
+Pensamos em fazer uma interface simples e pratica para tentar não intimidar nossos usuarios
 
 ## User Flow
  
 > ![UserFlow](images/Userflow.PNG)
 
 ## Wireframes
+![Wireframe-home](images/home.PNG)
+É a pagina inicial do site, por ela os usuários podem acessar guias sobre as diversas formas de investir e  também a calculadora
 
 ![Wireframe-Sign-in](images/Pag-sign.PNG)
 
