@@ -53,7 +53,7 @@
 
 
 # Introdução
-Atualmente, a pratica de investir é muito incomum. Isso se deve ao medo de perder dinheiro e a falta de informação util sobre como onde e quando ivestir. O nosso objetivo com esse projeto é oferecer uma fonte confiavel que explique os basicos do investimento, plataformas para se investir, tipos de investimento e a ideia por traz de como ganhar dinheiro investindo. Sendo um portal de informações para ajudar o cidadão comum a entrar no mundo dos investimentos.
+Atualmente, a pratica de investir é muito incomum. Isso se deve ao medo de perder dinheiro e a falta de informação util sobre como, onde e quando investir. O nosso objetivo com esse projeto é oferecer uma fonte confiavel que explique os basicos do investimento, plataformas para se investir, tipos de investimento e a ideia por tras de como ganhar dinheiro investindo. Sendo um portal de informações para ajudar o cidadão comum a entrar no mundo dos investimentos.
 
 ## Problema
 
