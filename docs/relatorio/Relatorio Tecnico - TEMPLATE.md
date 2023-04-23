@@ -120,7 +120,7 @@ carteira rentável. Ou investidores experientes que pretendem diversificar suas 
 
 ## Personas, Empatia e Proposta de Valor
 
-......  COLOQUE AQUI O SEU TEXTO ......
+![Persona1](images/persona1.png)
 
 
 > Relacione as personas identificadas no seu projeto, os respectivos mapas de empatia e 
@@ -219,6 +219,10 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
+|03| Não pode resolver o problema de só uma persona       |
+|04|      |
+|05|     |
+|06|     |
 
 
 > Enumere as restrições à sua solução. Lembre-se de que as restrições
@@ -244,11 +248,14 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Wireframes
 
+![Wireframe-Sign-in](images/Pag-sign.PNG)
 
+Caso o usuario não possua uma conta e pretenda criar uma, ele sera movido para a pagina de sign in na qual ele podera criar sua conta no site
 ![Wireframe-login](images/Pag-log.PNG)
+
 > Caso o usuario ja tenha uma conta cadastrada so site, ele sera levada para uma tela de login na qual usara seu usuario e senha para acessar as funções do site.
 
-![Wireframe-Sign-in](images/Pag-sign.PNG)
+
 
 
 # Metodologia
