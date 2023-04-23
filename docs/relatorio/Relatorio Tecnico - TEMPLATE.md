@@ -9,11 +9,11 @@
 
 ## Participantes
 
-Gustavo Bonisson e Silva
-Marcos Paulo da Silva Laine
-Hugo Foureaux Lopes
-Pedro Augusto Silva Ferreira
-Eduardo Martino Ferreira
+-Gustavo Bonisson e Silva
+-Marcos Paulo da Silva Laine
+-Hugo Foureaux Lopes
+-Pedro Augusto Silva Ferreira
+-Eduardo Martino Ferreira
 
 > Inclua a lista dos membros da equipe com seus nomes completos.
 >
