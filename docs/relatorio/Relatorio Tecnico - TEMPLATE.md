@@ -242,7 +242,7 @@ Pensamos em fazer uma interface simples e pratica para tentar não intimidar nos
 > ![UserFlow](images/Userflow.PNG)
 
 ## Wireframes
-![Wireframe-home](images/home.PNG)
+![Wireframe-home](images/Home.PNG)
 É a pagina inicial do site, por ela os usuários podem acessar guias sobre as diversas formas de investir e  também a calculadora
 
 ![Wireframe-Sign-in](images/Pag-sign.PNG)
