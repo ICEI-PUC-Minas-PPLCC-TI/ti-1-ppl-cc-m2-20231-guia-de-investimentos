@@ -120,7 +120,7 @@ carteira rentável. Ou investidores experientes que pretendem diversificar suas 
 
 ## Personas, Empatia e Proposta de Valor
 
-![Persona1](images/persona1.png)
+![Persona 1](images/Persona1.png)
 
 
 > Relacione as personas identificadas no seu projeto, os respectivos mapas de empatia e 
