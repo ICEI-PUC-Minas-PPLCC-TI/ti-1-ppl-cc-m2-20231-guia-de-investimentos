@@ -254,16 +254,15 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 >
 > **Exemplo**:
 > 
-> ![Exemplo de UserFlow](images/userflow.jpg)
+> ![UserFlow](images/Userflow.PNG)
 
 
 ## Wireframes
 
+
 ![Wireframe-login](images/Pag-log.PNG)
-> 
-> **Exemplo**:
-> 
-> ![Exemplo de Wireframe](images/wireframe-example.png)
+> Caso o usuario ja tenha uma conta cadastrada so site, ele sera levada para uma tela de login na qual usara seu usuario e senha para acessar as funções do site.
+
 
 
 # Metodologia
