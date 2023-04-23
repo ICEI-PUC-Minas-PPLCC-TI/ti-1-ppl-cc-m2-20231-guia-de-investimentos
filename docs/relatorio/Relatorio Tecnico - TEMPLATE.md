@@ -259,7 +259,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Wireframes
 
-![Wireframe-login](images/Pag-log.png)
+![Wireframe-login](images/Pag-log.PNG)
 > 
 > **Exemplo**:
 > 
