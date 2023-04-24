@@ -82,10 +82,6 @@ No site, pretendemos fornecer o maior número de informações possíveis sobre 
 Para a interface, usaremos HTML, CSS e JavaScript, usaremos métodos de armazenamento em banco de dados, etc.
 
 
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
-
 ## Personas, Empatia e Proposta de Valor
 
 ![Persona 1](images/Persona01.png)
