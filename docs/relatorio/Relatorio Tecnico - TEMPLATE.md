@@ -136,7 +136,7 @@ O escopo funcional do projeto é definido por meio dos requisitos funcionais que
 |------|-----------------------------------------|----|
 |RF-001| Gerenciamento de conta: permitir que os usuários gerenciem suas contas de investimento, incluindo depósitos, retiradas, transferências e histórico de transações. | ALTA |
 |RF-002| Monitoramento de portfólio: fornecer aos usuários informações em tempo real sobre o desempenho de seus investimentos. | ALTA |
-|RF-004| Pesquisa de investimentos: permitir que os usuários pesquisem e analisem diferentes tipos de investimentos disponíveis  | MEDIA |
+|RF-003| Pesquisa de investimentos: permitir que os usuários pesquisem e analisem diferentes tipos de investimentos disponíveis  | MEDIA |
 
 ### Requisitos não Funcionais
 
