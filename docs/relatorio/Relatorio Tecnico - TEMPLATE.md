@@ -119,19 +119,11 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Eduardo       |  preciso de segurança do dinheiro                | ter uma garantia de que posso investir sem perder todo o meu dinheiro |
+|Marcelo       |  Quero saber quanto dinheiro estou fazendo       | facilitar a administração do tempo de cada investimento |
+|Ana           | Quero poder investir em varias coisas diferentes | Não depender de uma unica fonte de renda  |
+|Marcelo       |  Ver meus investimentos com clareza              | Saber sempre o estado do meu dinheiro nas ações |
 
-> Apresente aqui as histórias de usuário que são relevantes para o
-> projeto de sua solução. As Histórias de Usuário consistem em uma
-> ferramenta poderosa para a compreensão e elicitação dos requisitos
-> funcionais e não funcionais da sua aplicação. Se possível, agrupe as
-> histórias de usuário por contexto, para facilitar consultas
-> recorrentes à essa parte do documento.
->
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
 
 
 ## Requisitos
@@ -164,12 +156,10 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
-|03| Não pode resolver o problema de só uma persona       |
-|04|      |
-|05|     |
-|06|     |
-
-
+|03| Não pode resolver o problema de só uma persona        |
+|04| Precisa levar em conta as empresas terceiras          |
+|05| Precisa ser constantemente atualizado para acompanhar o mercado    |
+|06| precisa de um comprovante que valide a credibilidade do site    |
 
 
 # Projeto de Interface
@@ -201,33 +191,12 @@ Caso o usuario não possua uma conta e pretenda criar uma, ele sera movido para 
 
 # Metodologia
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O grupo teve uma grande facilidade com o processo de desing thinking. Ja o scrum causou problemas devido a dificuldade de abordar tudo com o pouco tempo
 
-> Nesta parte do documento, você deve apresentar a metodologia 
-> adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
-> a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a
-> gestão de configuração do projeto via GitHub.
->
-> Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido
-> pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar
-> o andamento do projeto, a execução das tarefas e o status de desenvolvimento
-> da solução.
-> 
-> **Links Úteis**:
-> - [Tutorial Trello](https://trello.com/b/8AygzjUA/tutorial-trello)
-> - [Gestão ágil de projetos com o Trello](https://www.youtube.com/watch?v=1o9BOMAKBRE)
-> - [Gerência de projetos - Trello com Scrum](https://www.youtube.com/watch?v=DHLA8X_ujwo)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
 
 ## Divisão de Papéis
 
-......  COLOQUE AQUI O SEU TEXTO ......
 
-> Apresente a divisão de papéis e tarefas entre os membros do grupo.
->
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
 
 
 ## Ferramentas
@@ -243,18 +212,6 @@ Caso o usuario não possua uma conta e pretenda criar uma, ele sera movido para 
 |Editor de Código| VSCode | Nenhum (por enquanto) | | 
 |Divisão de Tarefas|
 
->
-> Liste as ferramentas empregadas no desenvolvimento do
-> projeto, justificando a escolha delas, sempre que possível.
-> 
-> As ferramentas empregadas no projeto são:
-> 
-> - Editor de código.
-> - Ferramentas de comunicação
-> - Ferramentas de diagramação
-> - Plataforma de hospedagem
-> 
->
 
 ## Controle de Versão
 
@@ -275,15 +232,7 @@ Caso o usuario não possua uma conta e pretenda criar uma, ele sera movido para 
 > - `bugfix`: uma funcionalidade encontra-se com problemas
 > - `enhancement`: uma funcionalidade precisa ser melhorada
 > - `feature`: uma nova funcionalidade precisa ser introduzida
->
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
-> - [5 Git Workflows & Branching Strategy to deliver better code](https://zepel.io/blog/5-git-workflows-to-improve-development/)
->
-> **Exemplo - GitHub Feature Branch Workflow**:
->
-> ![Exemplo de Wireframe](images/Github-Workflow.png)
+
 
 # **############## SPRINT 1 ACABA AQUI #############**
 
