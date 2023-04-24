@@ -1,11 +1,11 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
+InvestWiki
 
-# Investwiki
+# InvestWiki
 
 `CURSO` 
-
-# CIÊNCIAS DA COMPUTAÇÃO
+Ciência da Computação
 
 ## Participantes
 
@@ -53,52 +53,34 @@
 
 
 # Introdução
-Atualmente, a pratica de investir é muito incomum. Isso se deve ao medo de perder dinheiro e a falta de informação util sobre como, onde e quando investir. O nosso objetivo com esse projeto é oferecer uma fonte confiavel que explique os basicos do investimento, plataformas para se investir, tipos de investimento e a ideia por tras de como ganhar dinheiro investindo. Sendo um portal de informações para ajudar o cidadão comum a entrar no mundo dos investimentos.
 
 ## Problema
 
-
-
+>Investir dinheiro é um desejo comum. No entanto, muitas pessoas se sentem inseguras e não têm o conhecimento necessário para começar. Os sites de investimento podem
+>fornecer informações precisas e confiáveis sobre diferentes tipos de investimentos e estratégias. Com estes dados em mãos, os investidores podem minimizar os riscos e
+>maximizar os retornos sem passar por uma longa e cansativa curva de aprendizado. Além disso, um site de investimento pode oferecer uma comunidade de investidores para
+>compartilhar experiências e conhecimentos, tornando a jornada de investimento mais empolgante tanto para investidores iniciantes quanto para investidores experientes.
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Aqui você deve descrever os objetivos do trabalho indicando que o
-> objetivo geral é desenvolver um software para solucionar o problema
-> apresentado acima. Apresente também alguns (pelo menos 2) objetivos
-> específicos dependendo de onde você vai querer concentrar a sua
-> prática investigativa, ou como você vai aprofundar no seu trabalho.
-> 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+>Um site sobre guia de investimentos tem como objetivos fornecer informações sobre investimentos, ajudar os investidores a tomar decisões informadas e orientar os
+>leitores sobre estratégias de investimento. Além disso, o site pode oferecer ferramentas de análise e de acompanhamento de investimentos, notícias sobre o mercado
+>financeiro e avaliações de risco.
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Descreva a importância ou a motivação para trabalhar com esta aplicação
-> que você escolheu. Indique as razões pelas quais você escolheu seus
-> objetivos específicos ou as razões para aprofundar em certos aspectos
-> do software.
-> 
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e
-> dados estatísticos, que podem ser apresentados, com o objetivo de
-> esclarecer detalhes do problema que será abordado pelo grupo.
->
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+>O grupo pretende fornecer informações sobre os mais diversos tipos de investimentos que existem. Pretendemos também implementar ferramentas que auxilie o usuário
+>nas tomadas de decisão acerca dos seus próprios investimentos
 
 ## Público-Alvo
-Nosso píblico-alvo são pessoas que 
-querem investir, mas não possuem conhecimento 
-suficiente. Isso inclui investidores iniciantes que buscam orientação para montar uma 
-carteira rentável. Ou investidores experientes que pretendem diversificar suas carteiras e investir em areas fora de seu dominio
 
+> O público-alvo da InvestWiki são pessoas que pretendem começar a investir ou já investem, porém não têm muita experiência no assunto
 
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
+No site, pretendemos fornecer o maior número de informações possíveis sobre todos os tipos de investimentos, para isso, utilizaremos portais de notícias, por exemplo.
+Para a interface, usaremos HTML, CSS e JavaScript, usaremos métodos de armazenamento em banco de dados, etc.
+
 
 > Apresente uma visão geral do que será abordado nesta parte do
 > documento, enumerando as técnicas e/ou ferramentas utilizadas para
