@@ -195,7 +195,8 @@ O grupo teve uma grande facilidade com o processo de desing thinking. Ja o scrum
 
 ## Divisão de Papéis
 
-[Divisão](images/divisao.png)
+![Divisão](images/divisao.png)
+
 Esta imagem NÃO corresponde ao presente (falta tarefas a serem designadas)
 
 ## Ferramentas
