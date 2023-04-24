@@ -164,13 +164,14 @@ Caso o usuario não possua uma conta e pretenda criar uma, ele sera movido para 
 
 > Caso o usuario ja tenha uma conta cadastrada so site, ele sera levada para uma tela de login na qual usara seu usuario e senha para acessar as funções do site.
 
+# EXPLICAÇÃO
 ![Wireframe-explicação](images/Explicação.png)
 
 > exemplo de uma pagina de explicação
 
 # Metodologia
 
-O grupo teve uma grande facilidade com o processo de desing thinking. Ja o scrum causou problemas devido a dificuldade de abordar tudo com o pouco tempo
+O grupo adotou o Design Thinking e o Framework Scrum como metodologias de trabalho tendo inicialmente produzido uma serie de perguntas usadas para entrevistar pessoas que posteriormente seriam usadas de base na criação das personas, além do mapa de design thinking produzido no aplicativo MIRO. Após a criação das personas, entramos em processo de branstorm  para assim chegar-mos na conclusão de como abordar a maioria de seus problemas de forma criativa e eficiente.
 
 
 ## Divisão de Papéis
