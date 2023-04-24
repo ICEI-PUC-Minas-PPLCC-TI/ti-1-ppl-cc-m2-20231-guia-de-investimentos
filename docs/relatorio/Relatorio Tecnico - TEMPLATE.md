@@ -110,7 +110,9 @@ carteira rentável. Ou investidores experientes que pretendem diversificar suas 
 ![Proposta 1](images/Proposta1.png)
 ![Persona 2](images/Persona02.png)
 ![Proposta 2](images/Proposta2.png)
-> 
+
+> Pessoas diferentes com objetivos diferentes (1 a longo prazo e 1 a curto prazo)
+
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
