@@ -210,7 +210,7 @@ Esta imagem NÃO corresponde ao presente (falta tarefas a serem designadas)
 |Hospedagem do site |  |  Nenhuma (por enquanto) | 
 |Protótipo Interativo | MavelApp ou Figma | (https://www.figma.com/file/rOQONeternLae5GZsw97gh/Untitled?t=IPeI9PSn8iJUpGhh-1) | 
 |Editor de Código| VSCode | Nenhum (por enquanto) | | 
-|Divisão de Tarefas|
+|Divisão de Tarefas| Bitrix24 | https://b24-6r27id.bitrix24.com.br/?secret=3b7dv5yz| 
 
 
 ## Controle de Versão
