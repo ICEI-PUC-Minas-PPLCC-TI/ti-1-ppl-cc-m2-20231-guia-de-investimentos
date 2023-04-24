@@ -108,7 +108,8 @@ carteira rentável. Ou investidores experientes que pretendem diversificar suas 
 
 ![Persona 1](images/Persona1.png)
 ![Persona 2](images/Persona2.png)
-
+![Proposta 1](images/PropostaV1.png)
+![Proposta 2](images/PropostaV1.png)
 > 
 ## Histórias de Usuários
 
