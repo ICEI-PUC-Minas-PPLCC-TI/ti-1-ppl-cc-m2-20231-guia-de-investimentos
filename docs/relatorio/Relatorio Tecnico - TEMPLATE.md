@@ -186,7 +186,9 @@ Caso o usuario não possua uma conta e pretenda criar uma, ele sera movido para 
 
 > Caso o usuario ja tenha uma conta cadastrada so site, ele sera levada para uma tela de login na qual usara seu usuario e senha para acessar as funções do site.
 
+![Wireframe-explicação](images/Explicação.png)
 
+> exemplo de uma pagina de explicação
 
 # Metodologia
 
