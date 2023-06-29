@@ -1,0 +1,43 @@
+[
+    {
+      "tipo": "Títulos públicos",
+      "descricao": "Investimento em títulos emitidos pelo governo federal, como Tesouro Selic, Tesouro IPCA e Tesouro Prefixado.",
+      "risco": "Baixo",
+      "rentabilidade": "Varia de acordo com o título e as condições de mercado.",
+      "liquidez": "Varia de acordo com o título, alguns podem ser resgatados antes do vencimento, outros possuem prazo definido.",
+      "impostos": "Incidência de Imposto de Renda sobre os rendimentos."
+    },
+    {
+      "tipo": "Debêntures",
+      "descricao": "Investimento em títulos de dívida emitidos por empresas privadas.",
+      "risco": "Varia de acordo com a solidez da empresa emissora.",
+      "rentabilidade": "Definida no momento da emissão do título.",
+      "liquidez": "Varia de acordo com as condições estabelecidas no título.",
+      "impostos": "Incidência de Imposto de Renda sobre os rendimentos."
+    },
+    {
+      "tipo": "CDB (Certificado de Depósito Bancário)",
+      "descricao": "Investimento em títulos emitidos por instituições financeiras para captar recursos.",
+      "risco": "Varia de acordo com a solidez do banco emissor.",
+      "rentabilidade": "Definida no momento da emissão do título.",
+      "liquidez": "Varia de acordo com as condições estabelecidas no título.",
+      "impostos": "Incidência de Imposto de Renda sobre os rendimentos."
+    },
+    {
+      "tipo": "LCI (Letra de Crédito Imobiliário)",
+      "descricao": "Investimento em títulos emitidos por instituições financeiras para financiar o setor imobiliário.",
+      "risco": "Varia de acordo com a solidez do banco emissor.",
+      "rentabilidade": "Definida no momento da emissão do título.",
+      "liquidez": "Varia de acordo com as condições estabelecidas no título.",
+      "impostos": "Isenção de Imposto de Renda para pessoas físicas."
+    },
+    {
+      "tipo": "LCA (Letra de Crédito do Agronegócio)",
+      "descricao": "Investimento em títulos emitidos por instituições financeiras para financiar o setor agronegócio.",
+      "risco": "Varia de acordo com a solidez do banco emissor.",
+      "rentabilidade": "Definida no momento da emissão do título.",
+      "liquidez": "Varia de acordo com as condições estabelecidas no título.",
+      "impostos": "Isenção de Imposto de Renda para pessoas físicas."
+    }
+  ]
+  
