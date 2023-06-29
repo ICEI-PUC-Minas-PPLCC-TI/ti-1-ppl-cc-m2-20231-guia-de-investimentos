@@ -1,0 +1,8 @@
+.payment-area{
+    float: left;
+    width: 40%;
+}
+.contact-area{
+    float: right;
+    width: 60%;
+}

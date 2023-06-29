@@ -1,0 +1,40 @@
+
+
+.carousel{
+float: inline-start;
+width: 90%;
+margin-left: 5%;
+margin-right: 5%;
+
+
+}
+.form{
+    margin-top: 2%;
+}
+aside{
+    float: left;
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0.5%;
+    
+}
+
+main{
+    width: 65%;
+    float: left;
+    margin-top: 0.5%;
+    margin-left: 5%;
+    
+}
+
+
+.payment-area{
+    float: left;
+    width: 40%;
+}
+.contact-area{
+    float: right;
+    width: 60%;
+}
+

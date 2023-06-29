@@ -1,0 +1,188 @@
+body{
+    margin: 64px 0 ;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: whitesmoke;
+    width: 100vw;
+}
+
+.slider{
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.slides{
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 20%;
+    transition: 2s;
+}
+
+.slide img{
+    width: 800px;
+    height: 500px;
+}
+
+/*css manual slide*/
+
+.navigation-manual{
+   position: absolute;
+   width: 800px;
+   margin-top: -40px;
+   display: flex;
+   justify-content: center;
+}
+
+.manual-btn{
+    border: 2px solid #40D3DC;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background: #40D3DC;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+
+/*css auto*/
+
+.navigation_auto{
+    position: absolute;
+    display: flex;
+    width: 800PX;
+    justify-content: center;
+    margin-top: 460px;
+}
+
+.mavigation-auto div{
+    border: 2px solid #40D3DC;
+    padding: 5px;
+    border-radius: 5px;
+    transform: 1s;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background: #40D3DC;   
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background: #40D3DC;   
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background: #40D3DC;   
+}
+
+.Card{
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+    margin-top: 100px;
+    background-color: #202020;
+}
+
+.ContainerCard{
+    display: flex;
+margin-top: 50%;
+position: absolute;
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+}
+
+.FotoCard{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.textMain{
+    text-align: center;
+    color: #ffffff;
+}
+
+.botaoInfo{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.card2{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+/*
+.paidetodos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+*/
+.paidetodos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Cards {
+    background-color: #ccc;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 700px;
+    width: 100%;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    width: 40%;
+  }

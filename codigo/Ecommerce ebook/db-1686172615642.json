@@ -1,0 +1,109 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Camiseta do Galo",
+      "categoria": "Camisetas",
+      "descricao": "Camiseta do Atlético Mineiro oficial usada na temporada da trlipice coroa alvinegra (2021).",
+      "preco": 149.99
+    },
+    {
+      "id": 2,
+      "nome": "Camiseta do Barca",
+      "categoria": "Camisetas",
+      "descricao": "Camiseta do Barcelona ofifial da temporada 22-23, usada pelo time na conquista da laliga do mesmo ano.",
+      "preco": 149.99
+    },
+    {
+      "id": 3,
+      "nome": "Chuteira retrô Neymar",
+      "categoria": "Chuteira retrô do Neymar, usada nas olimpíadas de 2012 em Londres pelo jogador, que trouxe o prata para o Brasil. Trazendo conforto e estilo clássico do jogador",
+      "descricao": "Chuteira",
+      "preco": 999.99
+    },
+    {
+      "id": 4,
+      "nome": "Chuteira Ronaldinho",
+      "categoria": "Chuteira",
+      "descricao": "Chuteira da linha Tiempo da nike, que era usada por ronaldinho durante toda sua carreira. Ela traz um conforto e tambem firmeza em seu pé.",
+      "preco": 499.99
+    },
+    {
+      "id": 5,
+      "nome": "Tenis do lebron",
+      "categoria": "tenis basquete",
+      "descricao": "Tênis de basquete da nike da linha Lebron 20, em comemoração aos 20 anos de carreira do jogador na NBA, sua colorway traz referencias ao jogador, alé mde ser o tênis usado por ele ao bater o recorde de pontuação na liga. ",
+      "preco": 699.99
+    },
+    {
+      "id": 5,
+      "nome": "Tenis do melo",
+      "categoria": "tenis basquete",
+      "descricao": "Tênis de basquete da Puma, no modelo mb.02, linha de Lamelo Ball que traz o estillo tradicional do jogador, além de ser uma colab com o desenho Ricky e Morty.",
+      "preco": 799.99
+    },
+    {
+      "id": 6,
+      "nome": "Chuteira messi",
+      "categoria": "Chuteira",
+      "descricao": "Chuteira da Adidas em homenagem ao Lionel Messi, ganhador da copa do mundo de 2022 e maior ganhador do prêmio de melhor jogador do mundo.",
+      "preco": 400
+    },
+    {
+      "id": 7,
+      "nome": "Meia",
+      "categoria": "Acessorio",
+      "descricao": "Meia cano alto da nike, proprio para prática de esportes.",
+      "preco": 99.99
+    },
+    {
+      "id": 8,
+      "nome": "bone aba reta new era",
+      "categoria": "Acessorio",
+      "descricao": "Boné aba reta da new era, sem fecho atrás, colorway azul.",
+      "preco": 149.99
+    },
+    {
+      "id": 9,
+      "nome": "bone aba curva new era",
+      "categoria": "Acessorio",
+      "descricao": "Boné aba curva da new era, com fecho atrás, colorway vermelho.",
+      "preco": 149.99
+    },
+    {
+      "id": 10,
+      "nome": "Camiseta casual nike",
+      "categoria": "Camisetas",
+      "descricao": "Camiseta causal, com logo da nike no lado esquerdo do peito, 100% algodão.",
+      "preco": 139.99
+    },
+    {
+      "id": 11,
+      "nome": "Camiseta casual vans",
+      "categoria": "Camisetas",
+      "descricao": "Camiseta streetwear vans, com logo grande da marca e seu desenho.",
+      "preco": 149.99
+    },
+    {
+      "id": 12,
+      "nome": "mochila adidas",
+      "categoria": "Acessorio",
+      "descricao": "Mochila adidas, grande propria para pratica de esportes, e com 2 zipers.",
+      "preco": 249.99
+    },
+    {
+      "id": 13,
+      "nome": "Tenis corrida nike",
+      "categoria": "tenis corrida",
+      "descricao": "Tenis de corrida muito confortavel da nike.",
+      "preco": 299.99
+    },
+    {
+      "id": 14,
+      "nome": "Tenis corrida acics",
+      "categoria": "tenis corrida",
+      "descricao": "Tênis proprio para pisadas erradas, com o melhor conforto do mercado.",
+      "preco": 499.99
+    }
+  ]
+}

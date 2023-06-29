@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Tela de Cadastro</title>
+  <style>
+     body {
+        
+        background-color: #f5f5f5;
+      }
+      
+      form {
+        text-align: center;
+        width:60%;
+        height:80%;
+        background-color: #fff;
+        border-radius: 7px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+       
+        margin-left:30px;
+        margin-right:30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 20px;
+
+        position:relative;
+        right:70%;
+        left:15%;
+        
+      }
+      h3{
+        text-align: center;
+        font-style:Merriweather;
+      }
+      h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        font-style:Merriweather;
+      }
+      
+      label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+      
+      input[type="text"], input[type="email"], input[type="password"] {
+        font-family: tahoma;
+	display: inline-block;
+	margin-top:30px;
+	width: 80%;
+	padding: 10px 13px;
+	border:1px solid #ccc;
+      }
+      
+      input[type="submit"] {
+        background-color: #4CAF50;
+        border: none;
+        border-radius: 3px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 16px;
+        margin-top: 20px;
+        padding: 10px 20px;
+        transition: background-color 0.3s ease;
+      }
+      
+      input[type="submit"]:hover {
+        background-color: #3e8e41;
+      }
+      
+      .error {
+        color: red;
+        font-size: 14px;
+        margin-top: 5px;
+      }
+  </style>
+</head>
+<body>
+  <form onsubmit="return validateForm()">
+    <h1> <strong>Cadastre-se</strong></h1>
+    <h3> rápido e prático.</h3>
+    
+    <input type="text" id="name" name="name" required placeholder="Nome Completo">
+
+    
+    <input type="email" id="email" name="email" required placeholder="Digite seu Email">
+
+    
+    <input type="password" id="password" name="password" required placeholder="Nova senha">
+
+    
+    <input type="password" id="confirm-password" name="confirm-password" required placeholder="Confirmar senha">
+
+  
+      
+      
+      
+<div>
+  <p> <small> </br> Ao clicar em Cadastre-se, você concorda com nossos Termos, Política de Privacidade e Política de Cookies.</small></p>
+    <input type="submit" value="Cadastrar">
+  </div>
+  
+  
+  
+  </form>
+
+
+
+<script>
+  function validateForm() {
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var password = document.getElementById("password").value;
+    var confirmPassword = document.getElementById("confirm-password").value;
+
+    if (password != confirmPassword) {
+      alert("As senhas não coincidem.");
+      return false;
+    }
+
+    if (!validateEmail(email)) {
+      alert("Endereço de email inválido.");
+      return false;
+    }
+    if (password.length < 8) {
+alert("A senha deve ter pelo menos 8 caracteres.");
+return false;
+}
+    
+
+
+    return true;
+  }
+
+  function validateEmail(email) {
+    var re = /\S+@\S+\.\S+/;
+    return re.test(email);
+  }
+
+  
+  function saveData() {
+  var name = document.getElementById("name").value;
+  var email = document.getElementById("email").value;
+  var password = document.getElementById("password").value;
+
+  var data = {
+    "name": name,
+    "email": email,
+    "password": password
+  };
+
+  var jsonData = JSON.stringify(data);
+  console.log(jsonData); 
+  
+  
+}
+ 
+  </script>
+</body>
+</html>
+
+   

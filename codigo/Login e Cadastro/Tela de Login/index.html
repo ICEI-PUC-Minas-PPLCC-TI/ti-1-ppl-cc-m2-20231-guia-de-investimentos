@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Login</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<form onsubmit="return validarFormulario()">
+
+<div>
+  <input type= "text" id="email" name="email" placeholder="Email">
+  <span id="erroEmail" class="erro"></span>
+</div>
+  <input type= "password" id="senha" name="senha" placeholder="Senha">
+  <span id="erroSenha" class="erro"></span>
+<div>
+  <input type="submit" name="acao" value="Entrar">
+<div>
+ <button class="esqueceu">
+  Esqueceu sua senha?
+</button>
+</div>
+  
+  <input type="button" name="cadastro" value="Criar nova conta" onclick="window.location.href='cadastro.html'">
+ 
+
+</form>
+
+<script>
+  function validarFormulario() {
+    
+    var email = document.getElementById("email").value;
+    var senha = document.getElementById("senha").value;
+
+   
+    var regexEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    var regexSenha = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$/;
+
+  
+    var valido = true;
+    if (!regexEmail.test(email)) {
+      document.getElementById("erroEmail").innerHTML = "</br>Por favor, insira um <strong> email válido.</strong>";
+      valido = false;
+    } else {
+      document.getElementById("erroEmail").innerHTML = "";
+    }
+    if (!regexSenha.test(senha)) {
+      document.getElementById("erroSenha").innerHTML = " </br> <strong>A senha deve ter pelo menos 8 caracteres, incluindo pelo menos uma letra maiúscula, uma letra minúscula e um número. <strong>";
+      valido = false;
+    } else {
+      document.getElementById("erroSenha").innerHTML = "";
+    }
+
+
+  
+    return valido;
+  }
+</script>
+
+</body>
+</html>
+

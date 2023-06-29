@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="detalhes.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <title>Detalhes do Produto</title>
+</head>
+<body>
+    <div> <!--Cabeçalho-->
+        <nav class="navbar navbar-expand-lg navbar bg-danger " >
+            <div class="container-fluid">
+              <a class="navbar-left" href="Logo.jpeg"> <nav class="navbar-left ">
+                <div class="container">
+                  <a class="navbar-brand img-responsive" href="index.html">
+                    <img src="Logo.jpeg" alt="Bootstrap" width="100" height="50">
+                  </a>
+                </div>
+              </nav></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="produtos.html">Produtos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="sobrenos.html">Sobre nós</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index2.html">Cadastre-se já</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link img-responsive" href="carrinho.html"><img src="carrinho2.png" alt="Bootstrap" width="55" height="25"></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pesquisa.html">Pesquisa</a>
+                </li>
+                </ul>
+              </div>
+             
+            </div>
+          </nav>
+        </div>  
+
+        <h1 class="h1">Detalhes do Produto: </h1>
+
+        <div id="produto-details"></div>
+    
+        <script>
+          // Recuperar o ID do produto da URL
+          const urlParams = new URLSearchParams(window.location.search);
+          const productId = urlParams.get('id');
+    
+          // Fazer uma solicitação para obter os detalhes do produto
+          fetch(`http://localhost:3000/produtos/${productId}`)
+            .then(res => res.json())
+            .then(data => {
+              // Criar o conteúdo HTML com as informações do produto
+              const produtoDetails = `
+                <div>
+                    <table>
+                        <tr>
+                  <td><img class="img" src="${data.img}" alt="${data.nome}" width="400" height="400"></td>
+                  <td>
+                  <h2 class="h2">${data.nome}</h2>
+                  <p class="p1">${data.descricao}</p>
+                  <p class="text-decoration-underline p2">Preço: R$ ${data.preco}</p>
+                  </td>
+                  </tr>
+                </div>
+              `;
+    
+              // Atualizar o elemento com o conteúdo do produto
+              document.getElementById('produto-details').innerHTML = produtoDetails;
+            })
+            .catch(error => {
+              console.error('Erro ao buscar detalhes do produto:', error);
+            });
+        </script>
+        <button onclick="addToCart()" class="btn-primary bg-danger btn">Adicionar ao carrinho</button>
+
+        <script>
+          function addToCart() {
+            // Recuperar as informações do produto
+            const produtoNome = document.querySelector('.h2').textContent;
+            const produtoImagem = document.querySelector('img').getAttribute('src');
+            const produtoPreco = document.querySelector('.p2').textContent.split('R$ ')[1];
+        
+            // Criar um objeto URLSearchParams para armazenar as informações do produto
+            const params = new URLSearchParams();
+            params.append('nome', produtoNome);
+            params.append('img', produtoImagem);
+            params.append('preco', produtoPreco);
+        
+            // Redirecionar para a página carrinho.html com as informações do produto
+            window.location.href = `carrinho.html?${params.toString()}`;
+          }
+        </script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

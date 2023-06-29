@@ -1,0 +1,20 @@
+.h1{
+    margin: 5%;
+}
+
+
+.payment-area{
+    float: left;
+    width: 40%;
+}
+.contact-area{
+    float: right;
+    width: 60%;
+}
+.p1{
+ margin: 5%;
+
+}
+.p2{
+    margin: 5%;
+}

@@ -1,0 +1,138 @@
+{
+"produtos":[
+{
+      "id": 1,
+      "nome": "Camiseta do Atlético Mineiro 2021",
+      "categoria": "Camisetas",
+      "descricao":"Camiseta do Atlético Mineiro oficial usada na temporada da trlipice coroa alvinegra (2021).",
+      "img":"https://d3ugyf2ht6aenh.cloudfront.net/stores/002/234/631/products/fda1ec1e-11-35358fbf127ba71e6816572155469333-640-0.jpeg",
+      "preco": 149.99
+},
+
+{
+    "id": 2,
+    "nome": "Camiseta do Barcelona 22-23",
+    "categoria": "Camisetas",
+    "descricao":"Camiseta do Barcelona ofifial da temporada 22-23, usada pelo time na conquista da laliga do mesmo ano.",
+    "img":"https://cdn.iset.io/assets/56122/produtos/2731/camisa-do-barcelona-2022-2023-mg-camisas-futebol.jpg",
+    "preco": 149.99
+},
+
+{
+    "id": 3,
+    "nome": "Neymar Jr Mercurial Vapor 360 Boot Nike",
+    "categoria": "Chuteira",
+    "descricao":"Chuteira retrô do Neymar, usada nas olimpíadas de 2012 em Londres pelo jogador, que trouxe o prata para o Brasil. Trazendo conforto e estilo clássico do jogador",
+    "img":"https://extra.globo.com/incoming/5440754-a2e-e71/w976h550-PROP/chuteiraney.jpeg.jpg",
+    "preco": 999.99
+},
+
+{
+    "id": 4,
+    "nome": "Nike Tiempo Pro Ronaldinho R10 Edição limitada",
+    "categoria": "Chuteira",
+    "descricao":"Chuteira da linha Tiempo da nike, que era usada por ronaldinho durante toda sua carreira. Ela traz um conforto e tambem firmeza em seu pé.",
+    "img":"https://d3ugyf2ht6aenh.cloudfront.net/stores/001/063/592/products/vkj5u1-cb50846734e4d4994616505115996013-640-0.webp",
+    "preco": 499.99
+},
+
+{
+    "id": 5,
+    "nome": "Tênis Nike Lebron 20 Pink",
+    "categoria": "tenis basquete",
+    "img":"https://images.tcdn.com.br/img/img_prod/1088654/tenis_nike_lebron_20_pink_1087_1_2cbe4d7496d314e7ffa8d199ddba7c82.jpeg",
+    "descricao":"Tênis de basquete da nike da linha Lebron 20, em comemoração aos 20 anos de carreira do jogador na NBA, sua colorway traz referencias ao jogador, alé mde ser o tênis usado por ele ao bater o recorde de pontuação na liga. ",
+    "preco": 699.99
+},
+
+{
+    "id": 5,
+    "nome": "Puma LaMelo Ball MB.02 x Rick and Morty",
+    "categoria": "tenis basquete",
+    "img":"https://artwalk.vteximg.com.br/arquivos/ids/353015/tenis-puma-lamelo-mb-02-rick-morty-1.jpg?v=638120002150970000",
+    "descricao":"Tênis de basquete da Puma, no modelo mb.02, linha de Lamelo Ball que traz o estillo tradicional do jogador, além de ser uma colab com o desenho Ricky e Morty.",
+    "preco": 799.99
+},
+
+{
+    "id": 6,
+    "nome": "Chuteira Campo Adidas X Speeportal Messi.1",
+    "categoria": "Chuteira",
+    "img":"https://lncimg.lance.com.br/cdn-cgi/image/width=3840,height=undefined,quality=75/uploads/2022/11/04/63658141050d5.png",
+    "descricao":"Chuteira da Adidas em homenagem ao Lionel Messi, ganhador da copa do mundo de 2022 e maior ganhador do prêmio de melhor jogador do mundo.",
+    "preco": 400.00
+},
+
+{
+    "id": 7,
+    "nome": "Meia Nike Cano Alto everyday 3",
+    "categoria": "Acessorio",
+    "descricao":"Meia cano alto da nike, proprio para prática de esportes.",
+    "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCDcXdhqMnX9tIvlxJiZY0aT993pLyeSzHfQ&usqp=CAU",
+    "preco": 99.99
+},
+
+{
+    "id": 8,
+    "nome": "Bone aba reta new era blue",
+    "categoria": "Acessorio",
+    "descricao":"Boné aba reta da new era, sem fecho atrás, colorway azul.",
+    "img":"https://images.tcdn.com.br/img/img_prod/710966/bone_new_era_aba_reta_5950_mlb_los_angeles_patchwork_undervisor_1853_1_9f4b63ccbfda2657e79817cdb0cfea35.jpg",
+    "preco": 149.99
+},
+
+{
+    "id": 9,
+    "nome": "Bone aba curva new era red",
+    "categoria": "Acessorio",
+    "descricao":"Boné aba curva da new era, com fecho atrás, colorway vermelho.",
+    "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDMr6ayEe744VIHEvKPAKdn1BwA8FjAy0pHQ&usqp=CAU",
+    "preco": 149.99
+},
+
+{
+    "id": 10,
+    "nome": "Camiseta casual nike",
+    "categoria": "Camisetas",
+    "descricao":"Camiseta causal, com logo da nike no lado esquerdo do peito, 100% algodão.",
+    "img":"https://imgnike-a.akamaihd.net/1300x1300/01626951.jpg",
+    "preco": 139.99
+},
+
+{
+    "id": 11,
+    "nome": "Camiseta casual vans",
+    "categoria": "Camisetas",
+    "descricao":"Camiseta streetwear vans, com logo grande da marca e seu desenho.",
+    "img":"https://takeoverskateshop.com.br/wp-content/uploads/2020/07/Camiseta-Vans-10337-Off_The_Wall-Preto-02-600x600.jpg",
+    "preco": 149.99
+},
+
+{
+    "id": 12,
+    "nome": "Mochila Adidas Essentials Linear Unissex",
+    "categoria": "Acessorio",
+    "descricao":"Mochila adidas, grande propria para pratica de esportes, e com 2 zipers.",
+    "img":"https://d337bwjr0eqf6h.cloudfront.net/Custom/Content/Products/58/07/58079_mochila-adidas-lin-core-bp-pr-1615-dt4825_m4_638110414142180254.jpg",
+    "preco": 249.99
+},
+
+{
+    "id": 13,
+    "nome": "Tênis de corrida Nike ZoomX Vaporfly",
+    "categoria": "tenis corrida",
+    "descricao":"Tenis de corrida muito confortavel da nike.",
+    "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdrGnXd-I13UkjigX-ASYQZxtDr_DwicLPnQi0vBVTiEz6zJqFJyQj9kvN&s=10",
+    "preco": 299.99
+},
+
+{
+    "id": 14,
+    "nome": "Tênis Asics Dynablast",
+    "categoria": "tenis corrida",
+    "descricao":"Tênis proprio para pisadas erradas, com o melhor conforto do mercado.",
+    "img":"https://images.tcdn.com.br/img/img_prod/749591/tenis_asics_dynablast_masculino_corrida_conforto_763_1_20200923164155.jpg",
+    "preco": 499.99
+}
+]
+}

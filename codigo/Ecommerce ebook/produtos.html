@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <link rel="stylesheet" href="produtos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <title>Produtos</title>
+</head>
+<body>
+    <div> <!--Cabeçalho-->
+        <nav class="navbar navbar-expand-lg navbar bg-danger " >
+            <div class="container-fluid">
+              <a class="navbar-left" href="Logo.jpeg"> <nav class="navbar-left ">
+                <div class="container">
+                  <a class="navbar-brand img-responsive" href="index.html">
+                    <img src="Logo.jpeg" alt="Bootstrap" width="100" height="50">
+                  </a>
+                </div>
+              </nav></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="produtos.html">Produtos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="sobrenos.html">Sobre nós</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index2.html">Cadastre-se já</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link img-responsive" href="carrinho.html"><img src="carrinho2.png" alt="Bootstrap" width="55" height="25"></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pesquisa.html">Pesquisa</a>
+                </li>
+                </ul>
+              </div>
+             
+            </div>
+          </nav>
+    </div>  
+    <center><h1>Nossos Produtos:</h1></center>
+    <div class="container-fluid card">
+      <div class="row" id="tela">
+      </div>
+    </div>
+
+    
+  <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://images-na.ssl-images-amazon.com/images/I/51dkPfhozaL._AC_UL900_SR615,900_.jpg" class="card-img-top" alt="Nike Air Force 1">
+          <div class="card-body">
+            <h5 class="card-title">A jogada do seculo</h5>
+            <p class="card-text">Mike Lewis</p>
+            <a href="#" class="btn btn-primary">Comprar R$51,90</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://img.travessa.com.br/livro/BA/cd/cd921cd5-55ec-416a-8f13-037a55804a9b.jpg" class="card-img-top" alt="The balenciaga-simpsons">
+          <div class="card-body">
+            <h5 class="card-title">Ganhar de lavada</h5>
+            <p class="card-text">Scott Adams</p>
+            <a href="#" class="btn btn-primary">Comprar R$34,90</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://m.media-amazon.com/images/I/41ktVgT5QjL.jpg" class="card-img-top" alt="Air Dior Low">
+          <div class="card-body">
+            <h5 class="card-title">Iludidos pelo a caso</h5>
+            <p class="card-text">Nassin Talld</p>
+            <a href="#" class="btn btn-primary">Comprar R$40,00</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+       <div class="col-md-4">
+          <div class="card">
+                  <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/margin-of-safety-seth-klarman-investment-classics-edward-g.jpg">
+                  <div class="card-body">
+                      <h5 class="card-title">Margin of Safaty</h5>
+                      <p class="card-text">Seth Klarman</p>
+                      <a href="#" class="btn btn-primary">Comprar R$520,00</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="card">
+                  <img src="https://images-na.ssl-images-amazon.com/images/I/51VW8zRYXEL._AC_UL600_SR600,600_.jpg" class="card-img-top" alt="Nike Air Force 1">
+                  <div class="card-body">
+                      <h5 class="card-title">Memorias de um operador da bolsa</h5>
+                      <p class="card-text">Edwin. L </p>
+                      <a href="#" class="btn btn-primary">Comprar R$ 46,90</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="card">
+                  <img src="https://m.media-amazon.com/images/I/518ft+AvM0L._AC_UF1000,1000_QL80_.jpg" class="card-img-top" alt="Moletom Balenciaga">
+                  <div class="card-body">
+                      <h5 class="card-title">Os grandes investidores</h5>
+                      <p class="card-text">Glen Arnold </p>
+                      <a href="#" class="btn btn-primary">Comprar R$26,00</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+        <div class="row">
+
+    <script>
+      console.log('Começou');
+
+      // Aguarda o carregamento do DOM
+      $(document).ready(() => {
+        fetch('http://localhost:3000/produtos')
+          .then(res => res.json())
+          .then(data => {
+            console.log('Imprimindo produtos');
+            let str = '';
+            for (let i = 0; i < data.length; i++) {
+              let produto = data[i];
+              
+              str += `
+                <div class="card " style="width: 18rem;">
+                  <img src="${produto.img}" class="card-img-top" alt="..." width="300" height="300 >
+                  <div class="card-body">
+                    <h5 class="card-title">${produto.nome}</h5>
+                    <p class="card-text">${produto.descricao}</p>
+                    <a href="detalhes.html?id=${produto.id}" target="_blank" class="btn btn-primary bg-danger">Mais detalhes</a>
+
+                  </div>
+                </div>
+                
+              `;
+            }
+            $('#tela').html(str);
+          })
+          .catch(error => {
+            console.error('Erro ao buscar produtos:', error);
+          });
+      });
+
+      console.log('Terminou');
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
