@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
- <script src="script.js"></script>
-  <title>InvestWiki - Cotação de Criptomoedas</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <title>InvestWiki - Cryptocurrency Prices</title>
   <style>
     h1 {
       color: #ff9900;
@@ -21,70 +21,85 @@
     th {
       background-color: #f2f2f2;
     }
+    .positive {
+      color: green;
+    }
+    .negative {
+      color: red;
+    }
   </style>
 </head>
 <body>
-  <h1>InvestWiki - Cotação de Criptomoedas</h1>
+  <h1>InvestWiki - Cryptocurrency Prices</h1>
   <table>
     <thead>
       <tr>
-        <th>Nome da Moeda</th>
-        <th>Preço Atual</th>
-        <th>Variação</th>
+        <th>Coin Name</th>
+        <th>Current Price</th>
+        <th>Change (24h)</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>Bitcoin</td>
-        <td>$50,000</td>
-        <td>+5%</td>
+        <td id="bitcoin-price">$0</td>
+        <td id="bitcoin-change">0%</td>
       </tr>
       <tr>
         <td>Ethereum</td>
-        <td>$2,500</td>
-        <td>-2%</td>
+        <td id="ethereum-price">$0</td>
+        <td id="ethereum-change">0%</td>
       </tr>
-      <tr>
-        <td>Litecoin</td>
-        <td>$150</td>
-        <td>+3%</td>
-      </tr>
-      <tr>
-        <td>Ripple</td>
-        <td>$0.80</td>
-        <td>+1.5%</td>
-      </tr>
-      <tr>
-        <td>Cardano</td>
-        <td>$1.50</td>
-        <td>-0.5%</td>
-      </tr>
-      <tr>
-        <td>Polkadot</td>
-        <td>$40</td>
-        <td>+2.5%</td>
-      </tr>
-      <tr>
-        <td>Chainlink</td>
-        <td>$30</td>
-        <td>-1%</td>
-      </tr>
-      <tr>
-        <td>Stellar</td>
-        <td>$0.40</td>
-        <td>+0.8%</td>
-      </tr>
-      <tr>
-        <td>VeChain</td>
-        <td>$0.10</td>
-        <td>+2%</td>
-      </tr>
-      <tr>
-        <td>Uniswap</td>
-        <td>$25</td>
-        <td>-0.2%</td>
-      </tr>
+      <!-- Add more rows for other cryptocurrencies -->
     </tbody>
   </table>
+
+  <script>
+    $(document).ready(function() {
+      // Array with cryptocurrency symbols
+      var symbols = ['bitcoin', 'ethereum'];
+
+      // Function to format the price with two decimal places
+      function formatPrice(price) {
+        return '$' + price.toFixed(2);
+      }
+
+      // Function to update the values in the table
+      function updateTable() {
+        symbols.forEach(function(symbol) {
+          // Make an AJAX request to get cryptocurrency data
+          $.ajax({
+            url: 'https://api.coingecko.com/api/v3/simple/price?ids=' + symbol + '&vs_currencies=usd&include_24hr_change=true',
+            method: 'GET',
+            success: function(data) {
+              // Get the price and change values
+              var price = data[symbol].usd;
+              var change = data[symbol].usd_24h_change;
+
+              // Update the values in the table
+              $('#' + symbol + '-price').text(formatPrice(price));
+              $('#' + symbol + '-change').text(change.toFixed(2) + '%');
+
+              // Add the 'positive' or 'negative' class depending on the change value
+              if (change > 0) {
+                $('#' + symbol + '-change').addClass('positive').removeClass('negative');
+              } else {
+                $('#' + symbol + '-change').addClass('negative').removeClass('positive');
+              }
+            },
+            error: function() {
+              console.log('Error retrieving cryptocurrency data for ' + symbol);
+            }
+          });
+        });
+      }
+
+      // Call the table update function initially
+      updateTable();
+
+      // Update the table every 5 seconds
+      setInterval(updateTable, 5000);
+    });
+  </script>
 </body>
 </html>

@@ -1,29 +1,30 @@
-$(document).ready(function() {
-  // Array com os símbolos das criptomoedas
-  var symbols = ['bitcoin', 'ethereum', 'binancecoin', 'cardano'];
 
-  // Função para formatar o preço com duas casas decimais
+$(document).ready(function() {
+  // Array with cryptocurrency symbols
+  var symbols = ['bitcoin', 'ethereum'];
+
+  // Function to format the price with two decimal places
   function formatPrice(price) {
-    return 'R$ ' + price.toFixed(2);
+    return '$' + price.toFixed(2);
   }
 
-  // Função para atualizar os valores na tabela
+  // Function to update the values in the table
   function updateTable() {
     symbols.forEach(function(symbol) {
-      // Faz a requisição AJAX para obter os dados da criptomoeda
+      // Make an AJAX request to get cryptocurrency data
       $.ajax({
-        url: 'https://api.coingecko.com/api/v3/simple/price?ids=' + symbol + '&vs_currencies=brl&include_24hr_change=true',
+        url: 'https://api.coingecko.com/api/v3/simple/price?ids=' + symbol + '&vs_currencies=usd&include_24hr_change=true',
         method: 'GET',
         success: function(data) {
-          // Obtém os valores do preço e da variação
-          var price = data[symbol].brl;
-          var change = data[symbol].brl_24h_change;
+          // Get the price and change values
+          var price = data[symbol].usd;
+          var change = data[symbol].usd_24h_change;
 
-          // Atualiza os valores na tabela
+          // Update the values in the table
           $('#' + symbol + '-price').text(formatPrice(price));
           $('#' + symbol + '-change').text(change.toFixed(2) + '%');
 
-          // Adiciona a classe 'positive' ou 'negative' dependendo da variação
+          // Add the 'positive' or 'negative' class depending on the change value
           if (change > 0) {
             $('#' + symbol + '-change').addClass('positive').removeClass('negative');
           } else {
@@ -31,15 +32,15 @@ $(document).ready(function() {
           }
         },
         error: function() {
-          console.log('Erro ao obter os dados da criptomoeda ' + symbol);
+          console.log('Error retrieving cryptocurrency data for ' + symbol);
         }
       });
     });
   }
 
-  // Chama a função de atualização da tabela inicialmente
+  // Call the table update function initially
   updateTable();
 
-  // Atualiza a tabela a cada 5 segundos
+  // Update the table every 5 seconds
   setInterval(updateTable, 5000);
 });

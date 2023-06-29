@@ -2,21 +2,19 @@ body{
     margin: 64px 0 ;
     min-height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
     background: whitesmoke;
     width: 100vw;
 }
-
-.slider{
-    width: 800px;
+.slider {
+    width: 50%;
     height: 500px;
     border-radius: 10px;
     overflow: hidden;
-}
+    margin: 0 auto;
+  }
 
 .slides{
-    width: 500%;
+    width: 400%;
     height: 500px;
     display: flex;
 }
@@ -26,21 +24,20 @@ body{
 }
 
 .slide{
-    width: 20%;
+    width: 25%;
     transition: 2s;
 }
 
 .slide img{
-    width: 800px;
+    width: 100%;
     height: 500px;
 }
-
 /*css manual slide*/
 
 .navigation-manual{
    position: absolute;
    width: 800px;
-   margin-top: -40px;
+   /*margin-top: -40px;*/
    display: flex;
    justify-content: center;
 }
@@ -64,7 +61,7 @@ body{
 #radio1:checked ~ .first{
     margin-left: 0;
 }
-
+/*
 #radio2:checked ~ .first{
     margin-left: -20%;
 }
@@ -72,7 +69,7 @@ body{
 #radio3:checked ~ .first{
     margin-left: -40%;
 }
-
+*/
 /*css auto*/
 
 .navigation_auto{
@@ -80,7 +77,7 @@ body{
     display: flex;
     width: 800PX;
     justify-content: center;
-    margin-top: 460px;
+   /* margin-top: 460px;*/
 }
 
 .mavigation-auto div{
@@ -110,7 +107,7 @@ body{
     width: 300px;
     height: 500px;
     border-radius: 15px;
-    margin-top: 100px;
+    /*margin-top: 100px;*/
     background-color: #202020;
 }
 
@@ -150,7 +147,7 @@ position: absolute;
     margin-top: 20px;
     
 }
-/*
+
 .paidetodos{
     display: flex;
     flex-direction: column;
@@ -161,8 +158,10 @@ position: absolute;
 .Cards{
     display: flex;
     flex-wrap: wrap;
+    border: 30px black;
+ 
 }
-*/
+
 .paidetodos {
     display: flex;
     flex-direction: column;
@@ -172,17 +171,64 @@ position: absolute;
   }
   
   .Cards {
-    background-color: #ccc;
+    background-color: #ffa500;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    max-width: 700px;
-    width: 100%;
-    gap: 32px;
+    width: 95%;
+    gap: 50px;
+    max-width: 100%;
+    border-radius: 10px;
+    /*
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
   }
   
   .card {
-    width: 40%;
+    width: 23%;
+    box-shadow: -6px 8px 16px;
+    padding: 0px;
+    background-color: #2E8B57;
+    border-radius: 10px;
+
+
   }
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 10px;
+    height:120px;
+ }
+
+ header h1 {
+    margin: 0;
+    margin-left: 50px;
+    margin-top:50px;
+ }
+
+ header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top:-30px;
+ }
+
+ header nav ul li {
+    margin-right: 10px;
+ }
+
+ header nav ul li a {
+    text-decoration: none;
+    color: #39aacf;
+    padding: 5px;
+    margin-left:100px;
+ }
+
+ #paidetodos {
+         margin-top: 80px; /* Ajuste esta margem conforme necessário */
+      }
