@@ -1,48 +1,49 @@
-body{
-    margin: 64px 0 ;
+body {
+    margin: 64px 0;
     min-height: 100vh;
     display: flex;
     background: whitesmoke;
     width: 100vw;
 }
+
 .slider {
     width: 50%;
     height: 500px;
     border-radius: 10px;
     overflow: hidden;
     margin: 0 auto;
-  }
+    margin-bottom: 30px;
+}
 
-.slides{
+.slides {
     width: 400%;
     height: 500px;
     display: flex;
 }
 
-.slides input{
+.slides input {
     display: none;
 }
 
-.slide{
+.slide {
     width: 25%;
     transition: 2s;
 }
 
-.slide img{
+.slide img {
     width: 100%;
     height: 500px;
 }
-/*css manual slide*/
 
-.navigation-manual{
-   position: absolute;
-   width: 800px;
-   /*margin-top: -40px;*/
-   display: flex;
-   justify-content: center;
+.navigation-manual {
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
 }
 
-.manual-btn{
+.manual-btn {
     border: 2px solid #40D3DC;
     padding: 5px;
     border-radius: 10px;
@@ -50,185 +51,209 @@ body{
     transition: 1s;
 }
 
-.manual-btn:not(:last-child){
+.manual-btn:not(:last-child) {
     margin-right: 40px;
 }
 
-.manual-btn:hover{
+.manual-btn:hover {
     background: #40D3DC;
 }
 
-#radio1:checked ~ .first{
+#radio1:checked ~ .first {
     margin-left: 0;
 }
-/*
-#radio2:checked ~ .first{
-    margin-left: -20%;
-}
 
-#radio3:checked ~ .first{
-    margin-left: -40%;
-}
-*/
-/*css auto*/
-
-.navigation_auto{
+.navigation-auto {
     position: absolute;
     display: flex;
-    width: 800PX;
+    width: 800px;
     justify-content: center;
-   /* margin-top: 460px;*/
 }
 
-.mavigation-auto div{
+.navigation-auto div {
     border: 2px solid #40D3DC;
     padding: 5px;
     border-radius: 5px;
     transform: 1s;
 }
 
-.navigation-auto div:not(:last-child){
+.navigation-auto div:not(:last-child) {
     margin-right: 40px;
 }
 
-#radio1:checked ~ .navigation-auto .auto-btn1{
-    background: #40D3DC;   
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+    background: #40D3DC;
 }
 
-#radio2:checked ~ .navigation-auto .auto-btn2{
-    background: #40D3DC;   
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+    background: #40D3DC;
 }
 
-#radio3:checked ~ .navigation-auto .auto-btn3{
-    background: #40D3DC;   
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+    background: #40D3DC;
 }
 
-.Card{
+.Card {
     width: 300px;
+    padding: 20px;
     height: 500px;
     border-radius: 15px;
-    /*margin-top: 100px;*/
+    margin-top: 100px;
     background-color: #202020;
 }
 
-.ContainerCard{
+.ContainerCard {
     display: flex;
-margin-top: 50%;
-position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50%;
+    position: absolute;
 }
 
-.imagem{
+.imagem {
     display: flex;
     justify-content: center;
 }
 
-.FotoCard{
+.FotoCard {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     margin-top: 20px;
 }
 
-.textMain{
+.textMain {
     text-align: center;
-    color: #ffffff;
+    color: #0d3e3b;
 }
 
-.botaoInfo{
+.botaoInfo {
     display: flex;
     justify-content: center;
     margin-top: 20px;
-
+   
 }
 
-.card2{
+
+.botaoInfo a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #40D3DC;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    outline: none;
+    border: none; /* Remove the border */
+}
+
+.botaoInfo a:hover {
+    background-color: #29A5B5;
+}
+
+
+
+
+.card2 {
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    
-}
-
-.paidetodos{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.Cards{
-    display: flex;
-    flex-wrap: wrap;
-    border: 30px black;
- 
 }
 
 .paidetodos {
     display: flex;
     flex-direction: column;
-    width: 100%;
     justify-content: center;
     align-items: center;
-  }
-  
-  .Cards {
-    background-color: #ffa500;
+}
+
+.Cards {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    width: 95%;
-    gap: 50px;
-    max-width: 100%;
-    border-radius: 10px;
-    /*
+    gap: 20px;
     justify-content: center;
-    align-items: center;*/
-  }
-  
-  .card {
-    width: 23%;
-    box-shadow: -6px 8px 16px;
-    padding: 0px;
-    background-color: #2E8B57;
-    border-radius: 10px;
+    align-items: center;
+    margin-top: 30px;
+}
 
+.card {
+    height:450px;
+    flex-basis: 20%;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    background-color: #7ba3a3;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
-  }
-  header {
+.card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.card a {
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: #1f8c90;
+    color: #97d1d6;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.card a:hover {
+    background-color: #0da8a2;
+}
+
+header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     background-color: #f9f9f9;
     padding: 10px;
-    height:120px;
- }
+    height: 120px;
+}
 
- header h1 {
+header h1 {
     margin: 0;
     margin-left: 50px;
-    margin-top:50px;
- }
+    margin-top: 50px;
+    color:#169297;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    font-size:40px;
 
- header nav ul {
+}
+
+header nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
-    margin-top:-30px;
- }
+    margin-top: -30px;
+}
 
- header nav ul li {
+header nav ul li {
     margin-right: 10px;
- }
+}
 
- header nav ul li a {
+header nav ul li a {
     text-decoration: none;
-    color: #39aacf;
+    color: #0cb9d7;
     padding: 5px;
-    margin-left:100px;
- }
+    margin-left: 80px;
+    font-size:21px;
+    font-weight: 600;
+}
 
- #paidetodos {
-         margin-top: 80px; /* Ajuste esta margem conforme necessário */
-      }
+#paidetodos {
+    margin-top: 120px;
+}
