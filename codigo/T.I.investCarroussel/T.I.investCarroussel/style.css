@@ -13,6 +13,7 @@ body {
     overflow: hidden;
     margin: 0 auto;
     margin-bottom: 30px;
+    box-shadow: -10px 20px 16px rgba(0, 0, 0, 0.7);
 }
 
 .slides {
@@ -178,7 +179,7 @@ body {
 .card {
     height:450px;
     flex-basis: 20%;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 20px 16px rgba(0, 0, 0, 0.7);
     padding: 15px;
     background-color: #629a3e;
     border-radius: 15px;
@@ -216,9 +217,10 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: gray;
+    background-color: grey;
     padding: 10px;
     height: 120px;
+    z-index: 999; /* Adicione um valor alto ao z-index para garantir que o header fique acima dos outros elementos */
 }
 
 header h1 {
