@@ -3,7 +3,7 @@
     width:80%;
     margin-left:10%;
     margin-right:10%;
-    border:1px solid rgb(193, 37, 255);
+    border:1px solid #40D3DC;
     padding:18px;
 }
 
@@ -11,7 +11,7 @@
   
   h1 {
     text-align: center;
-    color: #4B0082; /* Roxo */
+    color: #40D3DC; /* Roxo */
     font-size: 50px;
     font-style: italic;
     font-weight:bold;
@@ -19,7 +19,7 @@
 
 h2 {
     text-align: center;
-    color: #b27cd9; /* Roxo */
+    color: #40D3DC; /* Roxo */
     font-size: 35px;
     font-style: italic;
     font-weight:bold;
@@ -29,7 +29,7 @@ form input[type="text"]{
     padding:10px 13px;
     width: 90%;
     border-radius: 4px;
-    border:1px solid #7d4274c0;
+    border:1px solid #40D3DC;
     margin-top:30px;
     margin-bottom:20px;
     display:inline-block;
@@ -40,7 +40,7 @@ form input[type="text"]{
     padding:10px 13px;
     width: 90%;
     border-radius: 4px;
-    border:1px solid #7d4274c0;
+    border:1px solid #40D3DC;
     margin-top:30px;
     margin-bottom:20px;
     display:inline-block;
@@ -53,7 +53,7 @@ form input[type="text"]{
     padding:10px 13px;
     width: 90%;
     border-radius: 4px;
-    border:1px solid #7d4274c0;
+    border:1px solid #40D3DC;
     margin-top:30px;
     margin-bottom:20px;
     display:inline-block;
@@ -75,13 +75,13 @@ label[for="idade"] {
     font-style:italic;
     margin-bottom: 5px;
     margin-top: 15px;
-    color: #5f28966e;
+    color: #40D3DC;
   }
   
   
     p {
         font-weight: bold;
-        color: #371061e6; /* Amethyst - código hexadecimal */
+        color: #40D3DC; /* Amethyst - código hexadecimal */
         margin-top:50px;
         margin-bottom: 30px;
         font-size:20px;
@@ -154,7 +154,7 @@ label[for="idade"] {
   label[for="longo_prazo"],
   label[for="comentarios"]{
     font-size:22px;
-    color:rgb(78, 32, 111);
+    color: #40D3DC;
     font-weight: 500;
   }
   
@@ -174,7 +174,7 @@ label[for="idade"] {
     width: 20%;
     padding: 10px;
     margin-left:550px;
-    background-color: #372172;
+    background-color: #40D3DC;
     color: white;
     border: none;
     border-radius: 4px;
@@ -183,7 +183,7 @@ label[for="idade"] {
   }
   
   input[type="submit"]:hover {
-    background-color: #2e0748;
+    background-color: #40D3DC;
   }
   
   textarea {
@@ -195,12 +195,12 @@ label[for="idade"] {
   /* Optional: Add styles for validation error messages */
   input:invalid,
   textarea:invalid {
-    border-color: red;
+    border-color: #40D3DC;
   }
   
   input:valid,
   textarea:valid {
-    border-color: #ccc;
+    border-color: #40D3DC;
   }
   
   
