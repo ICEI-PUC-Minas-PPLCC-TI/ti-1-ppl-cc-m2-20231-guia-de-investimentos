@@ -1,29 +1,33 @@
-/* Estilos para o corpo da página */
 body {
-    background-color: #f2f2f2;
+    background-color: #d8e8c4;
     font-family: Arial, sans-serif;
 }
 
-/* Estilos para o container principal */
+
 .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid #dbd440;
 }
 
-/* Estilos para o título */
+
 h1 {
     font-size: 2rem;
     text-align: center;
     margin-bottom: 30px;
+    color:  #dbd440;
 }
 
-/* Estilos para o formulário */
+
 form {
     display: flex;
     flex-direction: column;
+    background-color: #d8e8c4;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .form-group {
@@ -34,6 +38,7 @@ label {
     display: block;
     margin-bottom: 10px;
     font-weight: bold;
+    color: #3f7e44;
 }
 
 input[type="number"] {
@@ -43,16 +48,18 @@ input[type="number"] {
     font-size: 1.2rem;
 }
 
-/* CSS para a caixa de resultados */
+
 .resultados {
     border: 1px solid #ccc;
     padding: 10px;
     margin-top: 20px;
+    background-color: #f9f9f9;
 }
 
 .resultados label {
     display: inline-block;
     width: 120px;
+    color: #3f7e44;
 }
 
 .resultados input {
@@ -61,14 +68,17 @@ input[type="number"] {
     margin-left: 10px;
     border: none;
     font-weight: bold;
+    color: #3f7e44;
 }
 
-/* Estilos para o botão */
+
 button {
+    margin-top: 20px;
     padding: 10px;
     border-radius: 5px;
+    width: 80px;
     border: none;
-    background-color: #007bff;
+    background-color: #fbbf45;
     color: #fff;
     font-size: 1.2rem;
     cursor: pointer;
@@ -77,5 +87,17 @@ button {
 }
 
 button:hover {
-    background-color: #0062cc;
+    background-color: #f9a825;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ffff00;
+    border-radius: 5px;
+    background-color: #d8e8c4;
+    color: #3f7e44;
 }

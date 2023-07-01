@@ -4,6 +4,7 @@ body {
     display: flex;
     background: lightgray;
     width: 100vw;
+    font-style: '';
 }
 
 .slider {
