@@ -2,7 +2,7 @@ body {
     margin: 64px 0;
     min-height: 100vh;
     display: flex;
-    background: whitesmoke;
+    background: lightgray;
     width: 100vw;
 }
 
@@ -44,7 +44,7 @@ body {
 }
 
 .manual-btn {
-    border: 2px solid #40D3DC;
+    border: 2px solid yellow;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -56,7 +56,7 @@ body {
 }
 
 .manual-btn:hover {
-    background: #40D3DC;
+    background: yellow;
 }
 
 #radio1:checked ~ .first {
@@ -71,7 +71,7 @@ body {
 }
 
 .navigation-auto div {
-    border: 2px solid #40D3DC;
+    border: 2px solid yellow;
     padding: 5px;
     border-radius: 5px;
     transform: 1s;
@@ -82,15 +82,15 @@ body {
 }
 
 #radio1:checked ~ .navigation-auto .auto-btn1 {
-    background: #40D3DC;
+    background: yellow;
 }
 
 #radio2:checked ~ .navigation-auto .auto-btn2 {
-    background: #40D3DC;
+    background: yellow;
 }
 
 #radio3:checked ~ .navigation-auto .auto-btn3 {
-    background: #40D3DC;
+    background: yellow;
 }
 
 .Card {
@@ -99,7 +99,7 @@ body {
     height: 500px;
     border-radius: 15px;
     margin-top: 100px;
-    background-color: #202020;
+    background-color: yellow;
 }
 
 .ContainerCard {
@@ -124,7 +124,7 @@ body {
 
 .textMain {
     text-align: center;
-    color: #0d3e3b;
+    color: yellow;
 }
 
 .botaoInfo {
@@ -138,8 +138,8 @@ body {
 .botaoInfo a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #40D3DC;
-    color: #fff;
+    background-color: yellow;
+    color: yellow;
     text-decoration: none;
     transition: background-color 0.3s ease;
     outline: none;
@@ -147,7 +147,7 @@ body {
 }
 
 .botaoInfo a:hover {
-    background-color: #29A5B5;
+    background-color: yellow;
 }
 
 
@@ -180,7 +180,7 @@ body {
     flex-basis: 20%;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
     padding: 15px;
-    background-color: #7ba3a3;
+    background-color: #629a3e;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -201,8 +201,8 @@ body {
     display: inline-block;
     padding: 8px 12px;
     border-radius: 5px;
-    background-color: #1f8c90;
-    color: #97d1d6;
+    background-color: yellow;
+    color: black;
     text-decoration: none;
     transition: background-color 0.3s ease;
 }
@@ -216,7 +216,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #f9f9f9;
+    background-color: gray;
     padding: 10px;
     height: 120px;
 }
@@ -225,7 +225,7 @@ header h1 {
     margin: 0;
     margin-left: 50px;
     margin-top: 50px;
-    color:#169297;
+    color:#629a3e;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: oblique;
     font-size:40px;
@@ -247,7 +247,7 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color: #0cb9d7;
+    color: yellow;
     padding: 5px;
     margin-left: 80px;
     font-size:21px;
