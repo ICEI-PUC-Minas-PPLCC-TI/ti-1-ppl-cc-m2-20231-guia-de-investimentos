@@ -5,9 +5,9 @@ body {
     background: lightgray;
     width: 100vw;
     font-style: '';
-}
-
-.slider {
+  }
+  
+  .slider {
     width: 50%;
     height: 500px;
     border-radius: 10px;
@@ -15,129 +15,129 @@ body {
     margin: 0 auto;
     margin-bottom: 30px;
     box-shadow: -10px 20px 16px rgba(0, 0, 0, 0.7);
-}
-
-.slides {
+  }
+  
+  .slides {
     width: 400%;
     height: 500px;
     display: flex;
-}
-
-.slides input {
+  }
+  
+  .slides input {
     display: none;
-}
-
-.slide {
+  }
+  
+  .slide {
     width: 25%;
     transition: 2s;
-}
-
-.slide img {
+  }
+  
+  .slide img {
     width: 100%;
     height: 500px;
-}
-
-.navigation-manual {
+  }
+  
+  .navigation-manual {
     position: absolute;
     width: 800px;
     margin-top: -40px;
     display: flex;
     justify-content: center;
-}
-
-.manual-btn {
+  }
+  
+  .manual-btn {
     border: 2px solid yellow;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;
-}
-
-.manual-btn:not(:last-child) {
+  }
+  
+  .manual-btn:not(:last-child) {
     margin-right: 40px;
-}
-
-.manual-btn:hover {
+  }
+  
+  .manual-btn:hover {
     background: yellow;
-}
-
-#radio1:checked ~ .first {
+  }
+  
+  #radio1:checked~.first {
     margin-left: 0;
-}
-
-.navigation-auto {
+  }
+  
+  .navigation-auto {
     position: absolute;
     display: flex;
     width: 800px;
     justify-content: center;
-}
-
-.navigation-auto div {
+  }
+  
+  .navigation-auto div {
     border: 2px solid yellow;
     padding: 5px;
     border-radius: 5px;
     transform: 1s;
-}
-
-.navigation-auto div:not(:last-child) {
+  }
+  
+  .navigation-auto div:not(:last-child) {
     margin-right: 40px;
-}
-
-#radio1:checked ~ .navigation-auto .auto-btn1 {
+  }
+  
+  #radio1:checked~.navigation-auto .auto-btn1 {
     background: yellow;
-}
-
-#radio2:checked ~ .navigation-auto .auto-btn2 {
+  }
+  
+  #radio2:checked~.navigation-auto .auto-btn2 {
     background: yellow;
-}
-
-#radio3:checked ~ .navigation-auto .auto-btn3 {
+  }
+  
+  #radio3:checked~.navigation-auto .auto-btn3 {
     background: yellow;
-}
-
-.Card {
+  }
+  
+  .Card {
     width: 300px;
     padding: 20px;
     height: 500px;
     border-radius: 15px;
     margin-top: 100px;
     background-color: yellow;
-}
-
-.ContainerCard {
+  }
+  
+  .ContainerCard {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50%;
     position: absolute;
-}
-
-.imagem {
+  }
+  
+  .imagem {
     display: flex;
     justify-content: center;
-}
-
-.FotoCard {
+  }
+  
+  .FotoCard {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     margin-top: 20px;
-}
-
-.textMain {
+  }
+  
+  .textMain {
     text-align: center;
     color: black;
-}
-
-.botaoInfo {
+  }
+  
+  .botaoInfo {
     display: flex;
     justify-content: center;
     margin-top: 20px;
-   
-}
-
-
-.botaoInfo a {
+  
+  }
+  
+  
+  .botaoInfo a {
     display: inline-block;
     padding: 10px 20px;
     background-color: yellow;
@@ -145,40 +145,41 @@ body {
     text-decoration: none;
     transition: background-color 0.3s ease;
     outline: none;
-    border: none; /* Remove the border */
-}
-
-.botaoInfo a:hover {
+    border: none;
+    /* Remove the border */
+  }
+  
+  .botaoInfo a:hover {
     background-color: yellow;
-}
-
-
-
-
-.card2 {
+  }
+  
+  
+  
+  
+  .card2 {
     display: flex;
     justify-content: center;
     margin-top: 20px;
-}
-
-.paidetodos {
+  }
+  
+  .paidetodos {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.Cards {
+  }
+  
+  .Cards {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
-}
-
-.card {
-    height:450px;
+  }
+  
+  .card {
+    height: 450px;
     flex-basis: 20%;
     box-shadow: 10px 20px 16px rgba(0, 0, 0, 0.7);
     padding: 15px;
@@ -187,19 +188,19 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-
-.card h3 {
+  }
+  
+  .card h3 {
     margin-top: 0;
     margin-bottom: 10px;
-}
-
-.card p {
+  }
+  
+  .card p {
     margin-bottom: 20px;
     font-weight: 500;
-}
-
-.card a {
+  }
+  
+  .card a {
     display: inline-block;
     padding: 8px 12px;
     border-radius: 5px;
@@ -207,61 +208,93 @@ body {
     color: black;
     text-decoration: none;
     transition: background-color 0.3s ease;
-}
-
-.card a:hover {
+  }
+  
+  .card a:hover {
     background-color: #0da8a2;
-}
-
-header {
+  }
+  
+  header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     padding: 10px;
     height: 120px;
-    z-index: 999; /* Adicione um valor alto ao z-index para garantir que o header fique acima dos outros elementos */
+    z-index: 999;
+    /* Adicione um valor alto ao z-index para garantir que o header fique acima dos outros elementos */
     background-image: linear-gradient(to right, #629a3e, yellow);
-}
-
-header h1 {
+  }
+  
+  header h1 {
     margin: 0;
     margin-left: 50px;
     margin-top: 50px;
-    color:black;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: oblique;
-    font-size:40px;
-
-}
-
-header nav ul {
+    font-size: 40px;
+  
+  }
+  
+  header nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     margin-top: -30px;
-}
-
-header nav ul li {
+  }
+  
+  header nav ul li {
     margin-right: 10px;
-}
-
-header nav ul li a {
+  }
+  
+  header nav ul li a {
     text-decoration: none;
     color: black;
     padding: 5px;
     margin-left: 80px;
-    font-size:21px;
+    font-size: 21px;
     font-weight: 600;
-}
-
-#paidetodos {
+  }
+  
+  #paidetodos {
     margin-top: 120px;
-}
-
-.atualização{
+  }
+  
+  @media screen and (max-width: 1000px) {
+  header {  height:  100px;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+         }
+    header h1 {
+      margin-left: 0;
+      margin-top: 0;
+      text-align: center;
+    }
+  
+    header nav ul {
+      justify-content: space-around;
+      margin-top: 10px;
+    }
+  
+    header nav ul li {
+      margin-right: 0;
+    }
+  
+    header nav ul li a {
+      margin-left: 0;
+      font-size: 16px;
+    }
+  }
+  
+  
+  .atualização {
     text-align: center;
     font-size: 30px;
-}
+  }
