@@ -11,9 +11,14 @@
         }
 
         header {
-            background-color: #629a3e;
-            color: #fff;
-            padding: 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 10px;
+            height: 120px;
+            z-index: 999; /* Adicione um valor alto ao z-index para garantir que o header fique acima dos outros elementos */
+            background-image: linear-gradient(to right, #629a3e, yellow);
             text-align: center;
         }
 
@@ -76,7 +81,8 @@
 </head>
 <body>
     <header>
-        <h1>Bolsa de valores</h1>
+        <h1><a href="index.html">InvestWiki</a></h1>
+        <h2>Bolsa de valores</h2>
     </header>
 
     <main>
