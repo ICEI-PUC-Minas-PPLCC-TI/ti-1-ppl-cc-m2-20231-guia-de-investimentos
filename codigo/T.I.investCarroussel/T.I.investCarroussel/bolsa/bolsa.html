@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Bolsa de valores</title>
+    <script src="bolsa.js"></script>
     <style>
         body {
             background-color: #f4f8ec;
@@ -11,7 +12,7 @@
         }
 
         header {
-            position: fixed;
+            position: relative;
             top: 0;
             left: 0;
             width: 100%;
@@ -77,16 +78,31 @@
             text-align: center;
             margin-top: 20px;
         }
+        .titulo a{
+            text-decoration: none;
+            color: black;
+        }
+        h1{
+            text-align: left;
+            margin-top: 35px ;
+        }
+        .titulo2 a{
+            margin-bottom: 1000px;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1><a href="index.html">InvestWiki</a></h1>
-        <h2>Bolsa de valores</h2>
+        <h1 class="titulo"><a href="index.html">InvestWiki</a></h1>
+        <h2 class="titulo2">Bolsa de valores</h2>
     </header>
-
+    <div class="content">
+                <div id="container-dados"></div>
+                <button id="botao-reproduzir-pausar" class="play">Sem tempo para ler? Clique aqui e ouça o ▶️</button>
+            </div>
     <main>
         <div class="article">
+            
             <h2>O que é a bolsa de valores?</h2>
             <p>A bolsa de valores é um mercado organizado onde ocorre a negociação de valores mobiliários, como ações, títulos de dívida, commodities, derivativos e outros ativos financeiros. Ela proporciona um ambiente seguro e transparente para compradores e vendedores se encontrarem e realizarem transações de compra e venda de ativos.<p> </p>
 
