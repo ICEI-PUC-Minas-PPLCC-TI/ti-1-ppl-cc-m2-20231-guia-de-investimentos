@@ -1,0 +1,9 @@
+[{
+    "tipo": "Renda Fixa",
+    "descricao": "Investimento em ativos com rentabilidade previsível, como títulos públicos, debêntures, CDBs, LCIs, LCAs, entre outros.",
+    "risco": "Varia de acordo com o emissor do título.",
+    "rentabilidade": "Definida no momento da emissão do título.",
+    "liquidez": "Varia de acordo com as condições estabelecidas no título, alguns podem ser resgatados antes do vencimento, outros possuem prazo definido.",
+    "impostos": "Incidência de Imposto de Renda sobre os rendimentos."
+  }
+]

@@ -74,4 +74,5 @@ document.addEventListener("DOMContentLoaded", function() {
             botaoReproduzirPausar.textContent = "▶️";
         }
     }
+    
 });
