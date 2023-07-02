@@ -3,8 +3,6 @@ body {
   margin: 0.1px;
 }
 
-
-
 form {
   margin-bottom: 20px;
 }
@@ -30,7 +28,6 @@ button {
   margin-top: 10px;
   padding-left: 20px;
   border-left: 1px solid #ccc;
-<<<<<<< HEAD
 }
 
 header {
@@ -58,6 +55,3 @@ h1{
 .titulo2 a{
   margin-bottom: 10px;
 }
-=======
-}
->>>>>>> 79158cf1617e1d92963d95f0674346ca6f32706a
