@@ -1,0 +1,27 @@
+[
+    {
+      "tipo": "Ações",
+      "descricao": "Investimento em empresas listadas na bolsa de valores.",
+      "risco": "Alto",
+      "rentabilidade": "Varia de acordo as condições de mercado.",
+      "liquidez": "Varia de acordo com a ação",
+      "impostos": "Para operações de compra e venda de ações realizadas em períodos diferentes, a alíquota do IR é de 15% sobre o lucro líquido. No entanto, há isenção de imposto para vendas de até R$ 35.000,00 em um mês, desde que o investidor não tenha realizado outras vendas no mesmo mês."
+    },
+    {
+      "tipo": "Criptomoeda",
+      "descricao": "Investimento em moedas digitais",
+      "risco": "Alto",
+      "rentabilidade": "Varia de acordo com o mercado no momento da venda",
+      "liquidez": "Alta liquidez, podendo ser comprada e vendida a qualquer momento",
+      "impostos": "Os ganhos obtidos com a venda de criptomoedas são considerados ganhos de capital e devem ser informados na declaração anual de Imposto de Renda. A alíquota do imposto varia de acordo com o lucro obtido e pode ser de 15% a 22,5%."
+    },
+    {
+      "tipo": "Fundos imobiliários",
+      "descricao": "Fundos de Investimento Imobiliário (FIIs) são veículos de investimento coletivo que têm como objetivo principal aplicar recursos em empreendimentos imobiliários, como imóveis comerciais, residenciais, shoppings, galpões logísticos, entre outros.",
+      "risco": "Moderado",
+      "rentabilidade": "Definida com as valorização dos fundos e dividendos distribuidos",
+      "liquidez": "Pode ser vendido e comprado facilmente dentro do horário comercial da sua corretora.",
+      "impostos": "Isenção de Imposto de Renda sobre os rendimentos."
+    }
+  ]
+  

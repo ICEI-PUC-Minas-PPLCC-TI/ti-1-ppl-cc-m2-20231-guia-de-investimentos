@@ -44,7 +44,7 @@ body {
     display: flex;
     justify-content: center;
 }
-
+/*
 .manual-btn {
     border: 2px solid yellow;
     padding: 5px;
@@ -60,7 +60,7 @@ body {
 .manual-btn:hover {
     background: yellow;
 }
-
+*/
 #radio1:checked ~ .first {
     margin-left: 0;
 }
@@ -71,7 +71,7 @@ body {
     width: 800px;
     justify-content: center;
 }
-
+/*
 .navigation-auto div {
     border: 2px solid yellow;
     padding: 5px;
@@ -94,7 +94,7 @@ body {
 #radio3:checked ~ .navigation-auto .auto-btn3 {
     background: yellow;
 }
-
+*/
 .Card {
     width: 300px;
     padding: 20px;

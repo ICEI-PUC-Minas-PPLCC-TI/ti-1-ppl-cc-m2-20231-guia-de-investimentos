@@ -11,12 +11,12 @@
         }
 
         header {
-            position: fixed;
+            position: relative;
             top: 0;
             left: 0;
             width: 100%;
             padding: 10px;
-            height: 120px;
+            height: 115px;
             z-index: 999; /* Adicione um valor alto ao z-index para garantir que o header fique acima dos outros elementos */
             background-image: linear-gradient(to right, #629a3e, yellow);
             text-align: center;
@@ -77,12 +77,25 @@
             text-align: center;
             margin-top: 20px;
         }
+        .titulo a{
+            text-decoration: none;
+            color: black;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-style: oblique;
+        }
+        h1{
+            text-align: left;
+            margin-top: 35px ;
+        }
+        .titulo2 a{
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1><a href="index.html">InvestWiki</a></h1>
-        <h2>Bolsa de valores</h2>
+        <h1 class="titulo"><a href="index.html">INVESTWIKI</a></h1>
+        <h2 class="titulo2">Bolsa de valores</h2>
     </header>
 
     <main>
