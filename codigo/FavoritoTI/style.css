@@ -1,0 +1,56 @@
+/* Reset de estilos */
+html, body, h1, h2, h3, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilos gerais */
+  body {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+  
+  h3 {
+    font-size: 16px;
+  }
+  
+  p {
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  

@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: black; 
+  }
+  
+  h1,
+  h2,
+  h3,
+  p {
+    color: rgb(0, 0, 0); 
+    max-width: 800px; 
+    text-align: center; 
+    margin: 20px auto; 
+  }
+  
+  h1 {
+    font-size: 28px;
+    font-weight: bold;
+    border-bottom: 3px solid #333;
+    padding-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 40px;
+  }
+  
+  h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #ccc;
+    margin-top: 10px;
+  }
+  h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 40px;
+  }
+  
+  h3::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #ccc;
+    margin-top: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+
+
+.voltar-btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: auto;
+  }
+  
+  .voltar-btn:hover {
+    background-color: #555;
+    margin-left: auto;
+  }
+  
