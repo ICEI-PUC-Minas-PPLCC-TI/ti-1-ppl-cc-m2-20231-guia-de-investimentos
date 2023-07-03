@@ -1,16 +1,19 @@
-.h1{
-    margin: 5%
-}
-
-.h2{
+.h1 {
     margin: 5%;
+    color: green;
 }
 
-.p1{
+.h2 {
     margin: 5%;
+    color: green;
 }
 
-.p2{
+.p1 {
+    margin: 5%;
+    color: green;
+}
 
-margin: 5%;
+.p2 {
+    margin: 5%;
+    color: green;
 }

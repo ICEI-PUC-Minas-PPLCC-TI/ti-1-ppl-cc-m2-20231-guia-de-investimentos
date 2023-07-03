@@ -1,8 +1,9 @@
-.payment-area{
-    float: left;
-    width: 40%;
+.payment-area .btn,
+.contact-area .btn {
+    background-color: green;
 }
-.contact-area{
-    float: right;
-    width: 60%;
+
+.payment-area h4,
+.contact-area h4 {
+    color: green;
 }

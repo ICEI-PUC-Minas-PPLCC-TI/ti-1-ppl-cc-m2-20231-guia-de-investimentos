@@ -11,7 +11,7 @@
 
 <body>
   <div> <!--Cabeçalho-->
-    <nav class="navbar navbar-expand-lg navbar bg-danger " >
+    <nav class="navbar navbar-expand-lg navbar bg-success " >
         <div class="container-fluid">
           <a class="navbar-left" href="Logo.jpeg"> <nav class="navbar-left ">
             <div class="container">
@@ -52,7 +52,7 @@
 			<div id="login-row" class="row justify-content-center align-items-center">
 				<div id="login-column" class="col-md-6">
 					<div id="login-box" class="col-md-12">
-						<form id="login-form" class="form" method="post" onsubmit="loginUser (this)">
+						<form id="login-form" class="form" method="post" onsubmit="loginUser(this)">
 							<h3 class="text-center text-info" style="color: #40D3DC;">Login</h3>
 							<div class="form-group">
 								<label for="username" class="text-info">Usuário</label><br>
@@ -63,7 +63,7 @@
                                 <input type="text" name="password" id="password" class="form-control">
                             </div>
                             <div class="form-group text-right">                                
-                                <input type="submit" name="submit" class="btn btn-info btn-md" value="submit" style="background-color: #40D3DC ;">
+                                <input type="submit" name="submit" class="btn btn-info btn-md" value="submit" style="background-color: #40D3DC;">
                             </div>
                         </form>
                     </div>
@@ -85,7 +85,7 @@
         </div>
         <div class="modal-body">
             <div id="login-box" class="col-md-12">
-                <form id="login-form" class="form" method="post" onsubmit="loginUser (this)">
+                <form id="login-form" class="form" method="post" onsubmit="loginUser(this)">
                     <h3 class="text-center text-info">Novo usuário</h3>
                     <div class="form-group">
                         <label for="login" class="text-info">Usuário</label><br>
@@ -122,27 +122,27 @@
     <script>
         
         // Declara uma função para processar o formulário de login
-        function processaFormLogin (event) {                
+        function processaFormLogin(event) {                
                 // Cancela a submissão do formulário para tratar sem fazer refresh da tela
-                event.preventDefault ();
+                event.preventDefault();
 
                 // Obtem os dados de login e senha a partir do formulário de login
                 var username = document.getElementById('username').value;
                 var password = document.getElementById('password').value;
 
                 // Valida login e se estiver ok, redireciona para tela inicial da aplicação
-                resultadoLogin = loginUser (username, password);
+                resultadoLogin = loginUser(username, password);
                 if (resultadoLogin) {
                     window.location.href = 'index.html';
                 }
                 else { // Se login falhou, avisa ao usuário
-                    alert ('Usuário ou senha incorretos');
+                    alert('Usuário ou senha incorretos');
                 }
         }
 
-        function salvaLogin (event) {
+        function salvaLogin(event) {
             // Cancela a submissão do formulário para tratar sem fazer refresh da tela
-            event.preventDefault ();
+            event.preventDefault();
 
             // Obtem os dados do formulário
             let login  = document.getElementById('txt_login').value;
@@ -151,13 +151,13 @@
             let senha  = document.getElementById('txt_senha').value;
             let senha2 = document.getElementById('txt_senha2').value;
             if (senha != senha2) {
-                alert ('As senhas informadas não conferem.');
-                return
+                alert('As senhas informadas não conferem.');
+                return;
             }
 
             // Adiciona o usuário no banco de dados
-            addUser (nome, login, senha, email);
-            alert ('Usuário salvo com sucesso. Proceda com o login para ');
+            addUser(nome, login, senha, email);
+            alert('Usuário salvo com sucesso. Proceda com o login para ');
 
             // Oculta a div modal do login
             //document.getElementById ('loginModal').style.display = 'none';
@@ -165,11 +165,11 @@
         }
 
         // Associa a funçao processaFormLogin  formulário adicionado um manipulador do evento submit
-        document.getElementById ('login-form').addEventListener ('submit', processaFormLogin);
+        document.getElementById('login-form').addEventListener('submit', processaFormLogin);
 
 
         // Associar salvamento ao botao
-        document.getElementById ('btn_salvar').addEventListener ('click', salvaLogin);        
+        document.getElementById('btn_salvar').addEventListener('click', salvaLogin);        
     </script>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

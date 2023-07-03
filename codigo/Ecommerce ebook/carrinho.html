@@ -7,10 +7,15 @@
     <title>Carrinho</title>
     <link rel="stylesheet" href="carrinho.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <style>
+      .bg-green {
+        background-color: green !important;
+      }
+    </style>
 </head>
 <body>
-    <div> <!--Cabeçalho-->
-        <nav class="navbar navbar-expand-lg navbar bg-danger " >
+    <div><!-- Cabeçalho -->
+        <nav class="navbar navbar-expand-lg navbar bg-green">
             <div class="container-fluid">
               <a class="navbar-left" href="Logo.jpeg"> <nav class="navbar-left ">
                 <div class="container">
@@ -49,7 +54,7 @@
 
     <div id="carrinho-details"></div>
 
-    <button onclick="limparCarrinho()" class="btn-primary bg-danger btn">Esvaziar Carrinho</button>
+    <button onclick="limparCarrinho()" class="btn-primary btn bg-green">Esvaziar Carrinho</button>
 
     <script>
       // Função para recuperar os parâmetros da URL
@@ -135,7 +140,7 @@
 
 
 
-        <div> <!--Rodapé-->
+        <div><!-- Rodapé -->
 
             <footer class="footer">
              <div><img src="taço.png" alt="..." width="200" height="60"></div>
@@ -145,12 +150,12 @@
                     <div class="col-md-12">
                       <h5 class="main-title">Entre em contato conosco</h5>
                     </div>
-                    <div class=" col-md-6 col-sm-12 contact-box"> 
+                    <div class="col-md-6 col-sm-12 contact-box"> 
                       <i class="fas fa-phone"></i>
                       <p><span class="contact-title"><img src="telefone.png" alt="..." width="20"></span> (31)99807-4431</p>
                       <p><span class="contact-title">Horários:</span> 08:00 às 20:00 ; seg à sex</p>
                     </div>
-                    <div class=" col-md-6 col-sm-12 contact-box">
+                    <div class="col-md-6 col-sm-12 contact-box">
                       <i class="fas fa-social"></i>
                       <p><span class="contact-box"><img src="insta.png" alt="..." width="20"></span> @InvstiWikioficial</p>
                       <p><span class="contact-box"><img src="tt.png" alt="..." width="20"></span> @InvestWikioficial</p>
