@@ -146,7 +146,7 @@ Pensamos em fazer uma interface simples e pratica para tentar não intimidar nos
 ## Wireframes
 
 # Home
-![Wireframe-home](images/Home.PNG)
+![Wireframe-home](images/Home.png)
 
 É a pagina inicial do site, por ela os usuários podem acessar guias sobre as diversas formas de investir e  também a calculadora
 
