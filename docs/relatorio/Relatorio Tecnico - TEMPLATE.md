@@ -9,11 +9,11 @@ Ciência da Computação
 
 ## Participantes
 
-> - Gustavo Bonisson e Silva
-> - Marcos Paulo da Silva Laine
-> - Hugo Foureaux Lopes
-> - Pedro Augusto Silva Ferreira
 > - Eduardo Martino Ferreira
+> - Gustavo Bonissom
+> - Hugo Foureaux Lopes
+> - Marcos Paulo Laine
+> - Pedro Augusto Silva
 
 
 
@@ -112,17 +112,17 @@ O escopo funcional do projeto é definido por meio dos requisitos funcionais que
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Gerenciamento de conta: permitir que os usuários gerenciem suas contas de investimento, incluindo depósitos, retiradas, transferências e histórico de transações. | ALTA |
-|RF-002| Monitoramento de portfólio: fornecer aos usuários informações em tempo real sobre o desempenho de seus investimentos. | ALTA |
-|RF-003| Pesquisa de investimentos: permitir que os usuários pesquisem e analisem diferentes tipos de investimentos disponíveis  | MEDIA |
+|RF-001| Passar informações: Fornecer informações detalhadas sobre diferentes tipos de investimentos. | ALTA |
+|RF-002| Calcular investimentos: Disponibilizar uma calculadora para realizar cálculos de investimentos. | ALTA |
+|RF-003| Vender ebooks: Oferecer uma plataforma de comércio eletrônico para a venda de ebooks relacionados a finanças.  | BAIXA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
+|RNF-001| Veridicidade: Assegurar que todas as informações apresentadas no InvestWiki sejam verdadeiras e precisas. | ALTA | 
 |RNF-002| Segurança: garantir que o site seja seguro e protegido contra ameaças externas. |  ALTA | 
-|RNF-003| Desempenho: garantir que o site tenha um desempenho rápido e responsivo |  BAIXA | 
+|RNF-003| Desempenho: garantir que o site tenha um desempenho rápido e responsivo |  MÉDIA | 
 
 
 ## Restrições
@@ -143,26 +143,12 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 Pensamos em fazer uma interface simples e pratica para tentar não intimidar nossos usuarios
 
-## User Flow
- 
-> ![UserFlow](images/Userflow.PNG)
-
 ## Wireframes
 
 # Home
 ![Wireframe-home](images/Home.PNG)
 
 É a pagina inicial do site, por ela os usuários podem acessar guias sobre as diversas formas de investir e  também a calculadora
-
-# Sign in
-![Wireframe-Sign-in](images/Pag-sign.PNG)
-
-Caso o usuario não possua uma conta e pretenda criar uma, ele sera movido para a pagina de sign in na qual ele podera criar sua conta no site
-
-# LOGIN
-![Wireframe-login](images/Pag-log.PNG)
-
-> Caso o usuario ja tenha uma conta cadastrada so site, ele sera levada para uma tela de login na qual usara seu usuario e senha para acessar as funções do site.
 
 # EXPLICAÇÃO
 ![Wireframe-explicação](images/Explicação.png)
@@ -171,28 +157,18 @@ Caso o usuario não possua uma conta e pretenda criar uma, ele sera movido para 
 
 # Metodologia
 
-O grupo adotou o Design Thinking e o Framework Scrum como metodologias de trabalho tendo inicialmente produzido uma serie de perguntas usadas para entrevistar pessoas que posteriormente seriam usadas de base na criação das personas, além do mapa de design thinking produzido no aplicativo MIRO. Após a criação das personas, entramos em processo de branstorm  para assim chegar-mos na conclusão de como abordar a maioria de seus problemas de forma criativa e eficiente.
+Adotamos uma esatratégia em  cada um fazia partes separadas e que, ao final, completassem o site, tornando-o um site com o máximo possivel de informações e funcionalidades para o usuário.
 
-
-## Divisão de Papéis
-
-![Divisão](images/divisao.png)
-
-Esta imagem NÃO corresponde ao presente (falta tarefas a serem designadas)
 
 ## Ferramentas
-
-......  COLOQUE AQUI O SEU TEXTO - SIGA O EXEMPLO DA TABELA ABAIXO  ......
 
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
 |Processo de Design Thinkgin  | Miro | (https://miro.com/app/board/uXjVMYCYaSM=/) | 
 |Repositório de código | GitHub | (https://github.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m2-20231-guia-de-investimentos.git) | 
-|Hospedagem do site |  |  Nenhuma (por enquanto) | 
-|Protótipo Interativo | MavelApp ou Figma | (https://www.figma.com/file/rOQONeternLae5GZsw97gh/Untitled?t=IPeI9PSn8iJUpGhh-1) | 
-|Editor de Código| VSCode | Nenhum (por enquanto) | | 
-|Divisão de Tarefas| Bitrix24 | https://b24-6r27id.bitrix24.com.br/?secret=3b7dv5yz| 
-
+|Hospedagem do site |  |  replit.co (https://investwiki--pedroaugusto160.repl.co/TIAW/ti-1-ppl-cc-m2-20231-guia-de-investimentos/codigo/T.I.investCarroussel/T.I.investCarroussel/id.html) | 
+|Protótipo Interativo | MIRO | (https://miro.com/app/board/uXjVM4gC44g=/) | 
+|Editor de Código| VSCode | 
 
 ## Controle de Versão
 
@@ -215,91 +191,21 @@ Esta imagem NÃO corresponde ao presente (falta tarefas a serem designadas)
 > - `feature`: uma nova funcionalidade precisa ser introduzida
 
 
-# **############## SPRINT 1 ACABA AQUI #############**
-
 
 # Projeto da Solução
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Nosso objetivo no InvestWiki é capacitar investidores de
+todos os níveis, fornecendo informações confiáveis e
+recursos valiosos. Buscamos promover a educação
+financeira e ajudar investidores a tomar decisões
+informadas. 
 
 ## Tecnologias Utilizadas
 
-......  COLOQUE AQUI O SEU TEXTO ......
 
-> Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
-> problema, ou seja, implementar a sua solução. Liste todas as
-> tecnologias envolvidas, linguagens a serem utilizadas, serviços web,
-> frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-> Apresente também uma figura explicando como as tecnologias estão
-> relacionadas ou como uma interação do usuário com o sistema vai ser
-> conduzida, por onde ela passa até retornar uma resposta ao usuário.
-> 
-> Inclua os diagramas de User Flow, esboços criados pelo grupo
-> (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
-> item textualmente comentando e complementando o que está apresentado
-> nas imagens.
+Utilizamos o Figma e o Miro para fazermos o wireframe e o scrum do projeto, Replit para a hospedagem do site, Git e GitHub para controle de versão e hospedagem do repositório, Notion para a organização inicial do projeto, Visual Studio Code para o desenvolvimento do software, Discord, gGoogle meet e Microsoft Teams para reuniões com a equipe e os sites InfoMoney e XP Investimentos para garantir a veracidade das informações passadas ao usuário. 
 
-## Arquitetura da solução
-
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
-
-> Inclua um diagrama da solução e descreva os módulos e as tecnologias
-> que fazem parte da solução. Discorra sobre o diagrama.
-> 
-> **Exemplo do diagrama de Arquitetura**:
-> 
-> ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
-
-
-# Avaliação da Aplicação
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente os cenários de testes utilizados na realização dos testes da
-> sua aplicação. Escolha cenários de testes que demonstrem os requisitos
-> sendo satisfeitos.
-
-## Plano de Testes
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Enumere quais cenários de testes foram selecionados para teste. Neste
-> tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
-> de usuários que foi escolhido para participar do teste e as
-> ferramentas utilizadas.
-> 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-
-## Ferramentas de Testes (Opcional)
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Comente sobre as ferramentas de testes utilizadas.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
-
-## Registros de Testes
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Discorra sobre os resultados do teste. Ressaltando pontos fortes e
-> fracos identificados na solução. Comente como o grupo pretende atacar
-> esses pontos nas próximas iterações. Apresente as falhas detectadas e
-> as melhorias geradas a partir dos resultados obtidos nos testes.
 
 
 # Referências
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Inclua todas as referências (livros, artigos, sites, etc) utilizados
-> no desenvolvimento do trabalho.
-> 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+Utilizamos como referência os sites da XP investimentos e o site InfoMoney, que passam informações verídicas aos usuários, de maneira clara, didática e intuitiva.
